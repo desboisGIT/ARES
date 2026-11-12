@@ -1,0 +1,71 @@
+schema_version: 1
+# Inventory, not a grant of rights. No project license has been selected.
+project:
+  name: ARES
+  license: null
+  commercial_ok: false
+  status: pending_owner_license_selection
+runtime:
+  third_party_python_packages: []
+  components:
+    - name: Python interpreter and standard library
+      license: PSF-2.0 and bundled third-party notices
+      commercial_ok: false
+      status: pending_review_of_exact_distributed_interpreter_and_notices
+build_only:
+  - name: pip
+    observed_host_version: "25.1.1"
+    license: MIT
+    commercial_ok: false
+    status: pending_review_of_resolved_version_and_bundled_components
+  - name: packaging
+    observed_host_version: "26.0"
+    observed_container_version: "26.3"
+    license: Apache-2.0 OR BSD-2-Clause
+    commercial_ok: false
+    status: transitive_build_dependency_not_version_locked_pending_review
+  - name: setuptools
+    version_constraint: '>=68'
+    license: MIT
+    commercial_ok: false
+    status: pending_review_of_resolved_version_and_bundled_components
+  - name: wheel
+    license: MIT
+    commercial_ok: false
+    status: pending_review_of_resolved_version_and_bundled_components
+container:
+  base_image: python:3.12-slim
+  license: mixed
+  commercial_ok: false
+  status: pending_exact_image_digest_and_full_package_license_inventory
+  notes: Debian packages and bundled Python components have not been exhaustively audited.
+unresolved:
+  - Owner must choose a license for ARES source and assets.
+  - Build tools and container image are not version-locked or exhaustively audited.
+  - Recheck all licenses before distributing or deploying a commercial stack.
+references_not_dependencies:
+  - name: DiffPhysDrone
+    source: https://github.com/HenryHuYu/DiffPhysDrone
+    license: unknown
+    commercial_ok: false
+    notes: No top-level source license verified; research reference only.
+  - name: DiffAero
+    source: https://github.com/flyingbitac/diffaero/blob/main/LICENSE
+    license: BSD-3-Clause
+    commercial_ok: true
+    notes: Applies only to upstream own code; dependencies and submodules not audited; not integrated.
+  - name: FUEL
+    source: https://github.com/HKUST-Aerial-Robotics/FUEL/blob/main/LICENSE
+    license: GPL-3.0
+    commercial_ok: false
+    notes: GPL allows commercial use; false records incompatibility with this project's permissive-only deployment policy; reference only.
+  - name: FALCON
+    source: https://github.com/HKUST-Aerial-Robotics/FALCON
+    license: unknown
+    commercial_ok: false
+    notes: No top-level source license verified; research reference only.
+  - name: SUPER
+    source: https://github.com/hku-mars/SUPER
+    license: unknown
+    commercial_ok: false
+    notes: No top-level source license verified; article license does not establish code rights; reference only.

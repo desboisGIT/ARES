@@ -1,0 +1,6 @@
+{
+  "schema_version": "ares.benchmark_baseline.v1",
+  "workload": "axial-v1",
+  "normalized_ratio": 1.0,
+  "approval_reason": "Initial Phase 0 implementation and frozen reference implement identical axial-ray semantics. Compare paired timings on each runner; approve and explain changes exceeding 10%."
+}
