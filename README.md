@@ -47,8 +47,8 @@ seed and name, independent of Python's global random state and salted hashes.
 The scorer requires at least 95% supported voxel coverage, mean free/occupied
 floor-plan IoU of at least 0.80, all reachable rooms, zero collisions, an episode
 within the timeout, and a safe virtual landing. A successful evaluator witness
-proves that the scorer can accept an episode. The four attack policies—instant
-report, endless hover, leaving the map, and an omniscient forged map—must fail.
+proves that the scorer can accept an episode. The four attack policies instant
+report, endless hover, leaving the map, and an omniscient forged map must fail.
 Dense training reward lives separately and cannot certify success.
 
 The witness traverses evaluator-known free space. Its time is a harness fixture,
