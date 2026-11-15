@@ -1,0 +1,43 @@
+{
+  "status": "EXACT_Q_SUPPORT_PLUS_CONDITIONAL_REAL_INTERVAL_REMAINDER",
+  "source_controller_bounds": {
+    "path": "reports/phase_4_gate_artifacts/shield_research/taylor_remainder_v1/structured_noise_Q_taylor_bounds.json",
+    "sha256": "3ba4d31ac91a2c9cd7541156ab4383fa4d0b1793238a631f1078c6aa58ef6269"
+  },
+  "source_Q": {
+    "path": "reports/phase_4_learning_artifacts/diagnosis/shield_design/backup_linear_noise_exact_audit.json",
+    "sha256": "74f1e05f47efc938579025ae681c4a8c1fa772106ba562f4eb7fe669357a9e37"
+  },
+  "meaning": "Each local controller row support is sqrt(C Q C.T), maximized at c coefficient endpoints by convexity. Exact Fraction arithmetic and upper square-root bounds are used. Conditional real interval-Hessian/Jacobian output bounds are added exactly. This is a domain bound, not a nonlinear flight certificate.",
+  "groups": {
+    "planar_x": {
+      "linear_state_support_upper_rational": "1471239/12500000",
+      "endpoint_exact_variances": [
+        "16922814581550851018800561950657050878626407406275083680822817739505223925199/1322121993575152128730643810537881963849547679124431446359915690352768450560000",
+        "7585215406567955113695774847934698007237945932635867845275947611007958671/547547108901071061620098100441495654413303026660118984152268953489447583744"
+      ],
+      "nonlinear_remainder_upper_from_conditional_Hessian_rational": "4675050027889271/576460752303423488",
+      "measurement_error_upper_from_conditional_Jacobian_rational": "1720238113198907/72057594037927936",
+      "final_command_deviation_upper_rational": "149683/1000000",
+      "display": 0.149683
+    },
+    "vertical": {
+      "linear_state_support_upper_rational": "2612867/50000000",
+      "endpoint_exact_variances": [
+        "1021724639067394936532794608430001960035962302619/374144419156711147060143317175368453031918731001856"
+      ],
+      "nonlinear_remainder_upper_from_conditional_Hessian_rational": "2556760221876805/288230376151711744",
+      "measurement_error_upper_from_conditional_Jacobian_rational": "2440560295742591/144115188075855872",
+      "final_command_deviation_upper_rational": "78063/1000000",
+      "display": 0.078063
+    }
+  },
+  "new_command_deviation_radii": [
+    "78063/1000000",
+    "149683/1000000",
+    "149683/1000000",
+    "1683037/200000000"
+  ],
+  "yaw": "Retains the smaller existing direct interval-converter bound from the source artifact: .008415185.",
+  "machine_rounding_covered": false
+}

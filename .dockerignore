@@ -7,3 +7,7 @@ __pycache__
 build
 dist
 reports
+.pytest_cache
+.coverage
+recordings
+logs

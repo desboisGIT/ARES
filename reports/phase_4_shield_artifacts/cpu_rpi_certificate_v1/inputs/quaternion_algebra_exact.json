@@ -1,0 +1,13 @@
+{
+  "schema_version": "ares.quaternion_real_algebra.v1",
+  "vendor_mul_equals_Hamilton": true,
+  "rotation_homomorphism_without_unit_assumption": true,
+  "isotropic_drag_homogeneous_norm_identity": true,
+  "quaternion_norm_multiplicative": true,
+  "sympy": "1.14.0",
+  "source_sha256": "3ca0c53e47e0a764fb316a0961ee1adc4b0fc4f60a16807b474b2dada4a9a254",
+  "vendor_math_sha256": "c12e37d8eeecd0ffb994711bebe0d253cdf47645397b0dfb63d5f92324b44cf7",
+  "real_arithmetic_only": true,
+  "floating_reassociation_proved": false,
+  "flight_certificate": false
+}

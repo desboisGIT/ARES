@@ -1,0 +1,461 @@
+{
+  "schema_version": "ares.conditional_cpu_backup_proof_bundle.v1",
+  "flight_certificate": false,
+  "conditional_endpoint_RPI_lemmas_closed": true,
+  "runtime_motion_certificate_ready": false,
+  "scope": "Finite-horizon conditional full 3D coupled eager CPU Float32 backup; independent bounded-service assumptions, not default Gaussian/CUDA runtime or hardware certification.",
+  "fixed_anchor": true,
+  "anchor_translation_bound_per_axis_per_period_rational": "0",
+  "period_s_rational": "1/100",
+  "substep_s_rational": "1/500",
+  "horizon_periods": 1000,
+  "horizon_s_rational": "10",
+  "state_order": [
+    "px",
+    "py",
+    "pz",
+    "vx",
+    "vy",
+    "vz",
+    "qx_projective",
+    "qy_projective",
+    "qz_projective",
+    "wx",
+    "wy",
+    "wz",
+    "motor_thrust_minus_mg",
+    "queue1_T_minus_mg_over_b",
+    "queue1_wx",
+    "queue1_wy",
+    "queue1_wz",
+    "queue2_T_minus_mg_over_b",
+    "queue2_wx",
+    "queue2_wy",
+    "queue2_wz"
+  ],
+  "groups": {
+    "planar_x": {
+      "physical_indices": [
+        0,
+        3,
+        7,
+        10,
+        15,
+        19
+      ],
+      "state_scales_exact_rational": [
+        "3602879701896397/36028797018963968",
+        "3602879701896397/36028797018963968",
+        "5764607523034235/288230376151711744",
+        "3602879701896397/36028797018963968",
+        "3602879701896397/36028797018963968",
+        "3602879701896397/36028797018963968"
+      ],
+      "Q_scaled_exact_rational": [
+        [
+          "6036728862157575/4503599627370496",
+          "-3463340271388055/4503599627370496",
+          "-6734436329445223/72057594037927936",
+          "1390188880967/8796093022208",
+          "6099346814062997/36028797018963968",
+          "6061783261523131/36028797018963968"
+        ],
+        [
+          "-3463340271388055/4503599627370496",
+          "4931731914685769/4503599627370496",
+          "-8794521757877215/36028797018963968",
+          "-672614053574977/1125899906842624",
+          "-4008323191398735/9007199254740992",
+          "-4296945737890667/9007199254740992"
+        ],
+        [
+          "-6734436329445223/72057594037927936",
+          "-8794521757877215/36028797018963968",
+          "84199414991999/140737488355328",
+          "-1436596488167949/4503599627370496",
+          "-8592929557772663/9007199254740992",
+          "-8494814581971827/9007199254740992"
+        ],
+        [
+          "1390188880967/8796093022208",
+          "-672614053574977/1125899906842624",
+          "-1436596488167949/4503599627370496",
+          "4393319829188643/562949953421312",
+          "567723956252417/281474976710656",
+          "4116023042925337/1125899906842624"
+        ],
+        [
+          "6099346814062997/36028797018963968",
+          "-4008323191398735/9007199254740992",
+          "-8592929557772663/9007199254740992",
+          "567723956252417/281474976710656",
+          "4865867040621159/281474976710656",
+          "3421905967600301/1125899906842624"
+        ],
+        [
+          "6061783261523131/36028797018963968",
+          "-4296945737890667/9007199254740992",
+          "-8494814581971827/9007199254740992",
+          "4116023042925337/1125899906842624",
+          "3421905967600301/1125899906842624",
+          "6598696544402845/281474976710656"
+        ]
+      ],
+      "outer_Q_scaled_interval_file": "planar_x_interval_coefficients.npz",
+      "alpha_exact_rational": "4458563631096791/4503599627370496",
+      "all_sign_matrix_inequalities": 2709504,
+      "minimum_outward_LDL_pivot_lower": 2.4287158347791045e-06,
+      "audit_path": "planar_x_independent_LMI_audit.json",
+      "coefficient_path": "planar_x_interval_coefficients.npz",
+      "physical_coordinate_radius_display": [
+        0.1157766416526802,
+        0.10464532787432844,
+        0.015469619604607604,
+        0.27935825969983397,
+        0.41577677177109484,
+        0.4841826047634672
+      ]
+    },
+    "vertical": {
+      "physical_indices": [
+        2,
+        5,
+        12,
+        13,
+        17
+      ],
+      "state_scales_exact_rational": [
+        "3152519739159347/4503599627370496",
+        "3602879701896397/36028797018963968",
+        "1/2",
+        "1/2",
+        "1/2"
+      ],
+      "Q_scaled_exact_rational": [
+        [
+          "2997347986993999/144115188075855872",
+          "-1426296250991649/18014398509481984",
+          "-384679586826173/144115188075855872",
+          "-1217084690177355/576460752303423488",
+          "-4875690908651479/2305843009213693952"
+        ],
+        [
+          "-1426296250991649/18014398509481984",
+          "5863390765136031/9007199254740992",
+          "-916454151115427/18014398509481984",
+          "-5567241286370295/72057594037927936",
+          "-5886903561680179/72057594037927936"
+        ],
+        [
+          "-384679586826173/144115188075855872",
+          "-916454151115427/18014398509481984",
+          "7687935577560269/36028797018963968",
+          "7656265818697813/576460752303423488",
+          "7738136973053301/144115188075855872"
+        ],
+        [
+          "-1217084690177355/576460752303423488",
+          "-5567241286370295/72057594037927936",
+          "7656265818697813/576460752303423488",
+          "5415189974848413/18014398509481984",
+          "7546333058111921/288230376151711744"
+        ],
+        [
+          "-4875690908651479/2305843009213693952",
+          "-5886903561680179/72057594037927936",
+          "7738136973053301/144115188075855872",
+          "7546333058111921/288230376151711744",
+          "8685690811137987/18014398509481984"
+        ]
+      ],
+      "outer_Q_scaled_interval_file": "vertical_interval_coefficients.npz",
+      "alpha_exact_rational": "4460365070947739/4503599627370496",
+      "all_sign_matrix_inequalities": 48384,
+      "minimum_outward_LDL_pivot_lower": 5.610390936662892e-07,
+      "audit_path": "vertical_independent_LMI_audit.json",
+      "coefficient_path": "vertical_interval_coefficients.npz",
+      "physical_coordinate_radius_display": [
+        0.10095126071858744,
+        0.08068253485004383,
+        0.2309670307917657,
+        0.27413656707916656,
+        0.3471860798494905
+      ]
+    },
+    "yaw": {
+      "physical_indices": [
+        8,
+        11,
+        16,
+        20
+      ],
+      "state_scales_exact_rational": [
+        "5764607523034235/288230376151711744",
+        "3602879701896397/36028797018963968",
+        "3602879701896397/36028797018963968",
+        "3602879701896397/36028797018963968"
+      ],
+      "Q_scaled_exact_rational": [
+        [
+          "8114101607265719/1152921504606846976",
+          "-1453485480217973/144115188075855872",
+          "-2358842597266337/144115188075855872",
+          "-4626697282741747/288230376151711744"
+        ],
+        [
+          "-1453485480217973/144115188075855872",
+          "6660713271246689/72057594037927936",
+          "7834853827814887/288230376151711744",
+          "1473624044603587/36028797018963968"
+        ],
+        [
+          "-2358842597266337/144115188075855872",
+          "7834853827814887/288230376151711744",
+          "3162630153464023/18014398509481984",
+          "1501942490932001/36028797018963968"
+        ],
+        [
+          "-4626697282741747/288230376151711744",
+          "1473624044603587/36028797018963968",
+          "1501942490932001/36028797018963968",
+          "8565126970095215/36028797018963968"
+        ]
+      ],
+      "outer_Q_scaled_interval_file": "yaw_interval_coefficients.npz",
+      "alpha_exact_rational": "8872091265919877/9007199254740992",
+      "all_sign_matrix_inequalities": 504,
+      "minimum_outward_LDL_pivot_lower": 1.2180891579855605e-06,
+      "audit_path": "yaw_independent_LMI_audit.json",
+      "coefficient_path": "yaw_interval_coefficients.npz",
+      "physical_coordinate_radius_display": [
+        0.0016778392381026847,
+        0.030403283610007534,
+        0.041900028727612774,
+        0.048757566518022655
+      ]
+    }
+  },
+  "planar_y": {
+    "from": "planar_x",
+    "physical_indices": [
+      1,
+      4,
+      6,
+      9,
+      14,
+      18
+    ],
+    "sign_similarity": [
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1
+    ]
+  },
+  "physical_parameter_intervals_outward": {
+    "mass": [
+      "15099493/33554432",
+      "4613735/8388608"
+    ],
+    "gravity": [
+      "320471/32768",
+      "10307503/1048576"
+    ],
+    "drag": [
+      "3355443/67108864",
+      "6710887/33554432"
+    ],
+    "motor_lag": [
+      "8053063/536870912",
+      "10737419/268435456"
+    ],
+    "drag_over_mass": [
+      "479349/5272840",
+      "6710887/15099493"
+    ],
+    "angular_rate_gain": [
+      "2147483648/78741075",
+      "515396100/15461881"
+    ]
+  },
+  "bounded_measurement_service": {
+    "position_per_axis_m": "1/200",
+    "velocity_per_axis_m_per_s": "1/100",
+    "orientation": "Exact projective normalized orientation in this explicitly declared simulator service; no real-world orientation supplier claimed.",
+    "rates": "State domain bounded; backup law uses orientation, p and v.",
+    "hard_bounds_required": true,
+    "gaussian_or_RMS_bounds_accepted": false
+  },
+  "proof_obligations": {
+    "full_parameter_sector_embedding": {
+      "proved": true,
+      "evidence": [
+        "inputs/sector_generator_construction.json",
+        "inputs/sector_exact_generator_polynomials.json",
+        "export_coefficients.py"
+      ],
+      "statement": "Every actual real substep has gain F_motor/m in GC +/-7/8. Five independent gains contain all actual correlated gains. The planar held-input RK4 map is affine in each gain; exact F1*Fgc^k*F1=0 removes cross-stage products. Tensor Bernstein coefficients enclose all drag/inertia/controller/delay interiors jointly for A and Gamma."
+    },
+    "actual_held_RK4_real_graph_matching": {
+      "proved": true,
+      "evidence": [
+        "inputs/sector_flow_v1/sector_flow.py",
+        "inputs/taylor_remainder_v1/interval_flow_increment.py",
+        "inputs/quaternion_algebra_exact.py",
+        "inputs/quaternion_algebra_exact.json"
+      ],
+      "statement": "Proof-only algebra retains original 13-state RK4, five h=1/500 substeps, full gyroscopic inertia mismatch, homogeneous quaternion rotations and isotropic drag, normalization each substep, motor exponential and delayed held command. Quaternion increment factorization and sector relaxation are exact real identities/set inclusion; finite coding comparisons are not proof sources."
+    },
+    "nonlinear_oriented_remainders": {
+      "proved": true,
+      "evidence": [
+        "inputs/backup_quantized_exact_oriented_remainder_audit.json",
+        "replay_exact_remainder.py",
+        "inputs/sector_flow_v1/sector_quantized_flow_derivative_intervals.npz",
+        "inputs/taylor_remainder_v1/controller_split_signed_intervals.npz"
+      ],
+      "exact_operator_norm_certificates": 1183,
+      "statement": "Exact Fraction LDL proves outer-factor covariance domination and each transformed interval-Hessian norm upper bound. Joint state+measurement controller Taylor remainder is counted once through Gamma. Independent joint state+new-command physical-flow remainder is added; motor and command queues are exactly affine. Hessian domains contain the complete outer product set and quantized command box.",
+      "bundle_relative_replay_completed": true,
+      "replayed_rational_outputs_equal_original": true
+    },
+    "all_matrix_LMIs_and_outer_containment": {
+      "proved": true,
+      "evidence": [
+        "planar_x_independent_LMI_audit.json",
+        "vertical_independent_LMI_audit.json",
+        "yaw_independent_LMI_audit.json"
+      ],
+      "statement": "Every parameter coefficient, command sign and additive sign checked by outward binary64 interval LDL; Q>0 and outer_Q-Q>0. Joint convexity of AQA^T/alpha+ww^T/(1-alpha) extends vertex inequalities to the entire shared-parameter hull. No sampled eigenvalue or solver status is a sign proof."
+    },
+    "controller_branch_guards_clamps_inactive": {
+      "proved": true,
+      "evidence": [
+        "inputs/taylor_remainder_v1/controller_split_bounds.json",
+        "inputs/sector_flow_v1/sector_quantized_flow_bounds.json"
+      ],
+      "statement": "Positive-qw chart, positive thrust/force-z, heading atan branch, motor/queue clamps, rate and gyro-compensation clamps are checked over whole outer interval domains."
+    },
+    "conditional_machine_error_vector": {
+      "proved_under_primitive_contract": true,
+      "evidence": [
+        "inputs/conditional_projective21_budget.json",
+        "inputs/roundoff_enclosure_v1/README.md"
+      ],
+      "statement": "Original eager CPU Float32 operation trace includes represented step size, physical parameter casts/inertia reciprocals, nominal inertia words, raw quaternion shell/projective alignment, unnormalized stages, and per-substep normalization. World position |component|<=16. Point command error <=1e-6 added once via Gamma. Numeric vector excludes battery, supplied separately."
+    },
+    "verified_battery_decline": {
+      "proved_under_verified_backend": true,
+      "evidence": [
+        "inputs/verified_battery_v1.json",
+        "inputs/verified_battery_v1.py"
+      ],
+      "authority_range": [
+        "19/20",
+        "1"
+      ],
+      "per_period_decline_upper_rational": "1/156250",
+      "statement": "Verified RN32 power and explicit RNE energy/authority operations imply b decline <=6.4e-6 under F<=6.5 N, E<=10000 J, C>=43200 J. E0<=8000 J supports 1000 periods. Correlated equilibrium shift retained: +4dT/3 in pz and -dT in both thrust queues."
+    },
+    "intermediate_position_reserve": {
+      "proved_under_primitive_contract": true,
+      "evidence": [
+        "inputs/intermediate_position_v1.py",
+        "inputs/intermediate_position_v1.json"
+      ],
+      "per_axis_position_reserve_m_rational": "1/200",
+      "statement": "Finite original RK4 stage/endpoints and all simulator collision chords are within the endpoint positional outer box plus 5 mm/axis. Real fixed-point stage speed bound is .351758 m/s/component; original-operation Float32 stage-position error is <4.772e-6 m; conservative 1e-4 m arithmetic pad yields total <.003618 m/axis. This covers the simulator discrete segments, not an unmodeled continuous ODE curve."
+    }
+  },
+  "conditional_theorem": "If initial augmented-state uncertainty is contained in the product ellipsoid C(theta,b), the bounded-service and arithmetic/model hypotheses hold at every period, and cached reserve remains known free, then the fixed-anchor backup keeps every endpoint in C for up to 1000 periods. This follows per channel from Q>=AQA^T/alpha+ww^T/(1-alpha), the ellipsoidal two-term sum inequality, and product-domain Taylor/sector inclusions. Parameter equilibrium changes are included in w. The attached intermediate-stage lemma extends containment to all actual simulator collision chords after adding 5 mm/axis; free-space reserve and public initial membership remain runtime obligations.",
+  "runtime_obligations_not_established_by_this_bundle": {
+    "independent_state_bound_supplier": false,
+    "independent_map_bound_supplier": false,
+    "initial_public_only_membership": false,
+    "installed_CPU_norm_sqrt_primitive_contract": false,
+    "verified_decay_power_point_backend_wired": false,
+    "contract_expiry_and_cached_fallback_enforced": false,
+    "positive_coupled_certified_progress_fixture": false,
+    "default_Gaussian_CUDA_policy_integration": false
+  },
+  "required_arithmetic_contract": {
+    "RNE_binary32_basic_full_precision": true,
+    "unit_roundoff_exact": "1/16777216",
+    "absolute_output_FTZ_per_operation": "1/85070591730234615865843651857942052864",
+    "input_DAZ_disabled_or_separately_bounded": true,
+    "short_dot": "nproducts/nadds <=gamma_(2n)*sumabs +4n*FTZ, n3or4, includesFMA/reassociation",
+    "sqrt_error_vs_exact_ULP": ".5",
+    "exp_extra_ULP_vs_RNE": {
+      "native_candidate": 1,
+      "verified_decay_backend": 0
+    },
+    "norm4": "sum4squares withgamma8+8FTZ, thenassumedsqrt; no installedtorch.linalg vector_norm audit",
+    "overflow_nan_inf_excluded_by_domains": true,
+    "no_reduced_precision_matmul_or_autocast": true
+  },
+  "runtime_arithmetic_guard": "cpu_arithmetic_guard_v1.py; necessary RNE/DAZ/FTZ checks do not by themselves establish norm/sqrt implementation error contract.",
+  "frozen_physical_source51_sha256": {
+    "__init__.py": "342790ae2ea28f38357bdc245dd8b44356aa05284d5b47dc5a2511981981472b",
+    "__main__.py": "6a170fc866c867a1e5812daad308396f0940a23f2ecf55e56be39d5d67d23f10",
+    "attacks.py": "b5f66edf47d30d20395e5fd63820267ec4e6caccf11d34ea2ce2d21ead821989",
+    "benchmark.py": "68ca95c609a73a950384a53559fdeaab39892c7eeb6ac15692fdff6d70749f91",
+    "calibration.py": "31e45e00fff9765b6250924e5c11cf3452172d821ff2b853c116fee06bdadaf7",
+    "cli.py": "3d0fdacf2882578cd702293042fa32c21ecfd8b184338e2acee3c99f6068e9e6",
+    "contracts.py": "69262ac865bc3b635a648b06271a3c9cffcfc0a69755b17a77fdd379320df9f4",
+    "control_validation.py": "049e81cbb388a087654c5b964ef886371c729e78fa5861797cc58b40b3cdb975",
+    "depth.py": "71657288c9c8ccd716931bd311b1f8efc7a3250f7d70d8584f8e4220dd84ec88",
+    "depth_comparison.py": "635f7bd97459ca6a1dd48fbd609cb00644db9c17597ade4a78ae12efe1a0bf51",
+    "diffaero_adapter.py": "6be710f2806daadefe431f9fe379d41bcb534a8cb9964353eae74526103e76ec",
+    "evaluator.py": "4696af26c68f1079a57d5f23a508a8ff0c363f2323c2614b78f526bd5b86f5b9",
+    "exploration.py": "8ddea82cd2971492daee617959b0894280cbcc37e86f29331eda47fdcdffbfca",
+    "exploration_scoring.py": "def52c594e9cf26bc0a20e90ca68664167d111e92cf0a5b312070645ce70f05c",
+    "fast_world.py": "609473faa1a757a293342f24e841cc985c144e376bd3832539bcdaa2f98e7ee4",
+    "flight_collision.py": "958a99c382b830006a1829c03a23105cd099d501c7e146ec181ef3e670916ce9",
+    "flight_control.py": "e57b358bd0cbf2716f2dd9fcdf0a293664b7a4904a33a2e615105dd5b2d5fc52",
+    "flight_env.py": "f1539fe327eacbfe0a04320011492692137b92d7b113ee924ea9b55be78f19a3",
+    "flight_guidance.py": "5b61f3a699ef86f014cf12f0f9cd5bf0a812cd38f8c343e01a7879f1876a1c9d",
+    "flight_log.py": "64ab3bd86a004b9fd8c5f5a191b7c50d52ea0d3097b6da3c03901e62e2e663eb",
+    "flight_policy.py": "f276b318c04e6d4b2663bb81d7cca9aa8beb63001e265b636fc67332e19af7c0",
+    "flight_randomization.py": "451f1649f9f1eadc3a5cb9ea9d8c9d77a5732b98fde85ac61bd917d8e0a9af17",
+    "flight_sensors.py": "4c45c7563ab4e0eaf834740af24424e147c3720c65e0dcf50058f622fb9d8b03",
+    "flight_training.py": "3bccb8d84601b59b5ba1e4c902b4c9322794007baf057413347cfc68181f2581",
+    "gallery.py": "a6f6a5f5526a48797650644fd9f685901739f4dfaea425a7c54fded15cfd1da4",
+    "geometry.py": "186a35fea21fa3faa1fdec77b7dbf2dfb484dc95554c919a4e1ae9ea135810c4",
+    "human_benchmark.py": "9c08781131d66f0d7b12333c17f652c1e0abf0615fe112a01a367fb1f60446e2",
+    "importer.py": "7067ba2c6043519d9d5c44d759e8ebb5bd280005b85653f5a46665c096948c36",
+    "mapping.py": "8ec5fa0950b14910409daba8a37c180ab35485d54f61a623ff65039bc52a83e7",
+    "odometry.py": "45b581784c2615bfec262f295f697ca9aa03485df84b787cf63fa6624dbeb9e6",
+    "phase1.py": "d744122961ca10b67b5f0e53fb58319986bc0ebdc82fa34a35548e7bcd7b4cee",
+    "phase2.py": "d462d61d765429281e2df11624f9d42be86dc02b01a3b22069e8480d3de4a10a",
+    "phase3.py": "d71c96c1b0300837be85ca165c33489174f35b812940e1a8147dfca253f66c3a",
+    "phase4.py": "dfab4c6078f699a5bc975f80ee5ce9c2c24f06268a33f3b1a11f076f91c5e1a3",
+    "randomness.py": "127135a0c3f50c77105c0b0a48db97a63c44ff2cf695874d202b362867e2330d",
+    "rate_probe.py": "373abe5d1c2d3079fdd7b4c53186dc24e28a41cb5b100b1fcbfeab6da8205f9e",
+    "recording.py": "2c487a4aee1b41e2cb5a703f82137d04daa7707514216e5ad28100b7e9d465b6",
+    "replay.py": "add15a55ec7fff7032bd9fe83e1ddecd9e3c88fc8ebdb3a565bcabae23925f85",
+    "reporting.py": "8cd209ab8d28cfe4c034a42703171f8c138ef1d018d6f4f9f1e3f7cf8e670e25",
+    "reward.py": "46c87b1f00083118ede1c087c1235fe89679e86b0c0ae893274b9b9466583469",
+    "safety.py": "4a6abc3fda721136ab6c9a623060357b53d7de7902fcb72733a4e079134c51d9",
+    "scoring.py": "33bf8e4a95fe52a83233d01181cf55657259e8180732c41db735a07e80a6206a",
+    "sensors.py": "bab410d7030b1c36b50d2d0a995a00d1d77018e282ef4e5fb989ae39cadc8435",
+    "sessions.py": "aaf046b832d7ab8cf09f99e1cfe0fd22ef5ca267e6e0d203391554d91f2be286",
+    "vendor/__init__.py": "88783104b1a56979f31a778747ecb797d983c0270ed7b47bafbc471f215be0a8",
+    "vendor/diffaero/__init__.py": "1153660c167d7ac99c815520e208f026cbec9449eed77d27d6f0af255b087ede",
+    "vendor/diffaero/controller.py": "53ba647182d68306626c50314c3843b4883df95098451c70823fec82d3b4fa63",
+    "vendor/diffaero/math.py": "c12e37d8eeecd0ffb994711bebe0d253cdf47645397b0dfb63d5f92324b44cf7",
+    "vendor/diffaero/quadrotor.py": "e67588b41bd9121ca5931d6f3bdf2858256ca5459f6503c1e1eefc2cbce274ef",
+    "viewer.py": "99e9da130434b7f9d4fcb1fb9757e24854e857465cc474d2793d1c41cea59787",
+    "worldgen.py": "c3a646c13c14c353ef1b46c463d120adbf01f6c8487c397e4485aae653ba8749"
+  },
+  "physical_source51_current_match": true,
+  "vendor_sources": {
+    "ares/vendor/diffaero/quadrotor.py": "e67588b41bd9121ca5931d6f3bdf2858256ca5459f6503c1e1eefc2cbce274ef",
+    "ares/vendor/diffaero/math.py": "c12e37d8eeecd0ffb994711bebe0d253cdf47645397b0dfb63d5f92324b44cf7",
+    "ares/vendor/diffaero/__init__.py": "1153660c167d7ac99c815520e208f026cbec9449eed77d27d6f0af255b087ede",
+    "ares/vendor/diffaero/controller.py": "53ba647182d68306626c50314c3843b4883df95098451c70823fec82d3b4fa63"
+  },
+  "dependency_manifest": "bundle_sha256.json",
+  "coefficient_export_audit": "export_audit.json"
+}

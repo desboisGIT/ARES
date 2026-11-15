@@ -1,0 +1,16 @@
+{
+  "status": "EXACT_STAGE_AFFINITY_AND_RANGE_CONTAINMENT_PLUS_FLOAT_MATRIX_CANDIDATES",
+  "g_center_rational": "20562575/2097152",
+  "g_radius_rational": "7/8",
+  "required_gain_radius_bound_rational": "432103639811834883/494780186624000000",
+  "required_gain_radius_display": 0.8733244610302168,
+  "exact_cross_stage_products_zero": true,
+  "constant_gravity_specialization_exact": true,
+  "coefficient_base_vertices": 2646,
+  "independent_stage_gain_vertices": 32,
+  "total_local_planar_vertices": 84672,
+  "old_common_P_worst_norm_float": 0.997421258091411,
+  "nonlinear_RPI_proven": false,
+  "arithmetic_execution_proven": false,
+  "elapsed_s": 1.988999421002518
+}

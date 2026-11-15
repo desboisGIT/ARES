@@ -1,0 +1,93 @@
+{
+  "scope": "Only exact ellipsoid-to-box projection and P/Q positive definiteness. Not local dynamics/noise RPI certification.",
+  "P_component_coefficients": [
+    {
+      "group": "planar_x",
+      "P_positive_definite_exact": true,
+      "all_component_coefficients_proved": true,
+      "coefficients_rational": [
+        ".111",
+        ".153",
+        ".0223",
+        ".58",
+        ".427",
+        ".595"
+      ],
+      "physical_indices": [
+        0,
+        3,
+        7,
+        10,
+        15,
+        19
+      ]
+    },
+    {
+      "group": "vertical",
+      "P_positive_definite_exact": true,
+      "all_component_coefficients_proved": true,
+      "coefficients_rational": [
+        ".339079",
+        ".396802",
+        "1.782115",
+        "1.438910",
+        "1.933647"
+      ],
+      "physical_indices": [
+        2,
+        5,
+        12,
+        13,
+        17
+      ]
+    },
+    {
+      "group": "yaw",
+      "P_positive_definite_exact": true,
+      "all_component_coefficients_proved": true,
+      "coefficients_rational": [
+        ".011805",
+        ".414826",
+        ".363444",
+        ".510264"
+      ],
+      "physical_indices": [
+        8,
+        11,
+        16,
+        20
+      ]
+    }
+  ],
+  "noise_Q_box": [
+    {
+      "group": "planar_x",
+      "Q_positive_definite_exact": true,
+      "component_bounds_rational": [
+        ".077783",
+        ".070442",
+        ".010529",
+        ".197912",
+        ".288661",
+        ".326455"
+      ],
+      "all_projection_bounds_proved": true
+    },
+    {
+      "group": "vertical",
+      "Q_positive_definite_exact": true,
+      "component_bounds_rational": [
+        ".067302",
+        ".055462",
+        ".173839",
+        ".202997",
+        ".254497"
+      ],
+      "all_projection_bounds_proved": true
+    }
+  ],
+  "source_sha256": {
+    "backup_direct_contraction_audit.json": "a63637224179fc81dde16f83d6e4fc71312160097c096c61b3f2939392f53c27",
+    "backup_linear_noise_RPI_feasibility.json": "432fe671c822d52e9a21e5196c9c236dde0dabf330d633cd504db7bac5cc2348"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "ares.verified_cpu_battery_lemma.v1",
+  "conditional_arithmetic_lemma_passed": true,
+  "flight_certificate": false,
+  "native_pow_audited": false,
+  "requires_verified_power_primitive": true,
+  "requires_binary32_RNE_basic_operations_and_DAZ_FTZ_off": true,
+  "thrust_interval_N": [
+    0,
+    6.5
+  ],
+  "energy_interval_J": [
+    0,
+    10000
+  ],
+  "capacity_lower_J": 43200,
+  "period_word": "5368709/536870912",
+  "energy_jump_upper_J": {
+    "rational": "3000182831389079841534223463569167086640563300101933616992996177257977977241/2261564242916331941866620800950935700259179388000792266395655937654553313280",
+    "display_only": 1.3265963329524013
+  },
+  "authority_decrease_upper": {
+    "rational": "5787371696842072628509943101310792390369718002063566381613530308516798530875958140772706386307973/922746399517833155594649377065246513508368353658073996617121974579198921537236717609919621556600832000",
+    "display_only": 6.271898432620462e-06
+  },
+  "declared_authority_decrease_per_period": {
+    "rational": "1/156250",
+    "display_only": 6.4e-06
+  },
+  "authority_lower": {
+    "rational": "41378651784198781886828247881832369602120090307646360285242977/43387327194992737439632976493211390268099480832135406553137152",
+    "display_only": 0.9537036378902415
+  },
+  "ten_second_initial_energy_upper_J": 8000,
+  "monotonicity": "positive RN32 primitives are monotone; E_next>=E, b_next<=b",
+  "algebraic_rounding_bin_decisions_exact": true,
+  "power_regression_cases": 1006,
+  "maximum_native_power_absolute_difference": 0.0,
+  "finite_regressions_are_not_the_universal_proof": true
+}

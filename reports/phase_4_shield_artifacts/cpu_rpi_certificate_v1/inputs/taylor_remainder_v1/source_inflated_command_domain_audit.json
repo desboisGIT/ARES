@@ -1,0 +1,74 @@
+{
+  "status": "EXACT_SUPPORT_PLUS_CONDITIONAL_HESSIAN_BOX_COMMAND_BOUND_AND_FLOAT_ORIENTATION_RESEARCH",
+  "source_controller_split": {
+    "path": "reports/phase_4_gate_artifacts/shield_research/taylor_remainder_v1/controller_split_bounds.json",
+    "sha256": "726fd976f9ea594931e629871e12697f9f88faf5a6d1b4dfc1d75b17363a8822"
+  },
+  "outer_ellipsoid_requirement": "For each channel Q_new <= lambda\u00b2 Q_base in the PSD Loewner order, not merely diagonal containment, or audit actual C Q_new C.T separately.",
+  "records": [
+    {
+      "label": "base_Q_domain",
+      "Loewner_outer_scaling": {
+        "planar_x": "1",
+        "planar_y": "1",
+        "vertical": "1",
+        "yaw": "1"
+      },
+      "oriented_joint_controller_remainder_RESEARCH_ONLY": [
+        0.0029707391606913994,
+        0.004754948681060353,
+        0.004754993608845053,
+        0.0013513673052606256
+      ],
+      "proved_linear_support_plus_conditional_box_remainder": {
+        "planar_x": {
+          "linear_state_support_upper": "1471239/12500000",
+          "linear_noise_support_upper": "2680059592704/120973740530075",
+          "joint_NL_box_upper": "5772890915466065/576460752303423488",
+          "command_abs_upper_rational": "37467/250000",
+          "display": 0.149868
+        },
+        "vertical": {
+          "linear_state_support_upper": "2612867/50000000",
+          "linear_noise_support_upper": "13/800",
+          "joint_NL_box_upper": "5516902713292083/576460752303423488",
+          "command_abs_upper_rational": "39039/500000",
+          "display": 0.078078
+        }
+      }
+    },
+    {
+      "label": "inflated_Q_domain",
+      "Loewner_outer_scaling": {
+        "planar_x": "1.5",
+        "planar_y": "1.5",
+        "vertical": "1.5",
+        "yaw": "3"
+      },
+      "oriented_joint_controller_remainder_RESEARCH_ONLY": [
+        0.006385216963628305,
+        0.01249167331452411,
+        0.012492120922920076,
+        0.0031292203056555302
+      ],
+      "proved_linear_support_plus_conditional_box_remainder": {
+        "planar_x": {
+          "linear_state_support_upper": "4413717/25000000",
+          "linear_noise_support_upper": "2680059592704/120973740530075",
+          "joint_NL_box_upper": "7249477565300141/288230376151711744",
+          "command_abs_upper_rational": "44771/200000",
+          "display": 0.223855
+        },
+        "vertical": {
+          "linear_state_support_upper": "7838601/100000000",
+          "linear_noise_support_upper": "13/800",
+          "joint_NL_box_upper": "3064060226180127/144115188075855872",
+          "command_abs_upper_rational": "57949/500000",
+          "display": 0.115898
+        }
+      }
+    }
+  ],
+  "orientation_matrix_norms_rationally_audited": false,
+  "flight_certificate": false
+}

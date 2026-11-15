@@ -1,0 +1,36 @@
+{
+  "torch_git": "70d99e998b4955e0049d13a98d77ae1b14db1f45",
+  "primary_sources": [
+    {
+      "url": "https://raw.githubusercontent.com/pytorch/pytorch/70d99e998b4955e0049d13a98d77ae1b14db1f45/aten/src/ATen/native/cpu/PowKernel.cpp",
+      "path": "aten/src/ATen/native/cpu/PowKernel.cpp",
+      "local": "PowKernel.cpp",
+      "sha256": "df8f16ecab4b7848483020c50efe5fe0750eb2acb7042fbe2d262136f10b763c"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/pytorch/pytorch/70d99e998b4955e0049d13a98d77ae1b14db1f45/aten/src/ATen/native/cpu/ReduceOpsKernel.cpp",
+      "path": "aten/src/ATen/native/cpu/ReduceOpsKernel.cpp",
+      "local": "ReduceOpsKernel.cpp",
+      "sha256": "4b85f8c711278cea2066f2a3418fd804cb4072fecfb2c3f3ce549a2c37e2b271"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/pytorch/pytorch/70d99e998b4955e0049d13a98d77ae1b14db1f45/aten/src/ATen/native/SharedReduceOps.h",
+      "path": "aten/src/ATen/native/SharedReduceOps.h",
+      "local": "SharedReduceOps.h",
+      "sha256": "b8e0a3a5eccade1a77ac9001ddb53f7f12ed69c43fb721849f9e8cd4097448de"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/pytorch/pytorch/70d99e998b4955e0049d13a98d77ae1b14db1f45/aten/src/ATen/cpu/vec/vec512/vec512_float.h",
+      "path": "aten/src/ATen/cpu/vec/vec512/vec512_float.h",
+      "local": "vec512_float.h",
+      "sha256": "ae677ba7d7b00f50c8ee0f84fd089012aeb23304c509df24ba12cc01fad97b2f"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/pytorch/pytorch/70d99e998b4955e0049d13a98d77ae1b14db1f45/aten/src/ATen/native/LinearAlgebra.cpp",
+      "path": "aten/src/ATen/native/LinearAlgebra.cpp",
+      "local": "LinearAlgebra.cpp",
+      "sha256": "07ca5aee3897f5516764ef8dab03a015eb9a6826ec2f26be997aca4f6e35e4ec"
+    }
+  ],
+  "installed_binary_attestation": false
+}

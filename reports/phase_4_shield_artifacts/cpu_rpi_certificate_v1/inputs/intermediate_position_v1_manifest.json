@@ -1,0 +1,23 @@
+{
+  "schema_version": "ares.conditional_intermediate_position_manifest.v1",
+  "files_sha256": {
+    "intermediate_position_v1.py": "d4cc2046c170aeec71e2ea1e5e9b95c3c92a3d756280ac3ee68d3e2b9bd8389f",
+    "intermediate_position_v1.json": "828c83642acbd801caba2cb551972d7a0503bdd2277c56f27bc82b761159bbef",
+    "intermediate_position_v1.md": "8042c5070bb5b8acff1ea4b7a2c4871b5d527540913ce0fce59a722cee625f26",
+    "intermediate_position_v1.stdout": "a5ac789506806a1c889686d6b1d3456b73162f53e8eee537faad66d9097e1ba4",
+    "test_intermediate_position_v1.py": "06b3f7d14e9318b6d1c9150fcba92601f838a0b5bd7aad92012bcd79b573e680",
+    "intermediate_position_v1_tests.log": "c6779bdb22ce8a73f62cead30dc9214a9cfaa383566c9737b02d10163fccd807",
+    "zero_rate_history_v1.py": "9ac73b4012e24d55c38bb7fcf7fa8d443b53bc1c91bd3e0496d9f062916df212",
+    "roundoff_enclosure_v1/roundoff.py": "db642d0d3d7f4869abae9fc4c1dde384073d3e30ca655bf6341d884344d9eed0",
+    "roundoff_enclosure_v1/conditional_budgets.json": "65b7d3494df908106f3afa4ba0eb1105867120c1ad0a97e710b417836f7a768c",
+    "taylor_remainder_v1/interval_taylor.py": "954b0144b3debfe4359c64fd70c5acc5d0080c344d4a2ed7d3ff0549af575072"
+  },
+  "original_frozen_51_source_hashes_unchanged": true,
+  "tests_passed": 4,
+  "delay_branches": 2,
+  "nodes_per_branch": 25,
+  "axis_reserve_m": "1/200",
+  "Euclidean_reserve_m": "9/1000",
+  "physical_continuous_interpolation_contract_proved": false,
+  "flight_certificate": false
+}

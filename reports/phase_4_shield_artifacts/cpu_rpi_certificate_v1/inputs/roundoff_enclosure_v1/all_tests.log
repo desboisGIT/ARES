@@ -1,0 +1,17 @@
+test_mkldnn_route_change_fails_closed (test_backend.ConditionalBackendTests.test_mkldnn_route_change_fails_closed) ... ok
+test_nominal_full_body_steps_keep_original_physics_and_no_certificate (test_backend.ConditionalBackendTests.test_nominal_full_body_steps_keep_original_physics_and_no_certificate) ... ok
+test_nonfinite_command_and_outside_domain_fail_before_mutation (test_backend.ConditionalBackendTests.test_nonfinite_command_and_outside_domain_fail_before_mutation) ... ok
+test_post_step_domain_loss_latches_and_reports_advanced_state (test_backend.ConditionalBackendTests.test_post_step_domain_loss_latches_and_reports_advanced_state) ... ok
+test_quaternion_shell_position_and_precision_guards (test_backend.ConditionalBackendTests.test_quaternion_shell_position_and_precision_guards) ... ok
+test_static_program_parameters_and_battery_domains_fail_closed (test_backend.ConditionalBackendTests.test_static_program_parameters_and_battery_domains_fail_closed) ... ok
+test_basic_operations_cover_exact_software_binary32 (test_roundoff.RoundoffTests.test_basic_operations_cover_exact_software_binary32) ... ok
+test_gamma6_dot_encloses_reassociation_and_fma (test_roundoff.RoundoffTests.test_gamma6_dot_encloses_reassociation_and_fma) ... ok
+test_half_ulp_sqrt_and_casts_enclose_reference (test_roundoff.RoundoffTests.test_half_ulp_sqrt_and_casts_enclose_reference) ... ok
+test_invalid_numeric_domains_fail_closed (test_roundoff.RoundoffTests.test_invalid_numeric_domains_fail_closed) ... ok
+test_motor_refinement_preserves_original_three_op_error (test_roundoff.RoundoffTests.test_motor_refinement_preserves_original_three_op_error) ... ok
+test_norm_shell_rational_derivation_has_margin_below_8u (test_roundoff.RoundoffTests.test_norm_shell_rational_derivation_has_margin_below_8u) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.514s
+
+OK

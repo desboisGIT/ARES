@@ -1,0 +1,14 @@
+{
+  "verified_backup_point_v1.json": "0c6893b1955a65e854ca21624fb042fb6aae5f9689436e44c40d8e401f0354ca",
+  "conditional_projective21_budget.json": "bb8e785ef0bcad958288931ce9e1aa4ad0201f490d4db838ead149be9ed357b7",
+  "sector_exact_generator_polynomials.json": "ba9934d9cd1e34a874b94950f861a7dd97544737ca2f3b03995b8c7ccaa0e8d3",
+  "backup_quantized_exact_oriented_remainder_audit.json": "963b71ae1760d5a0c5341dd82f68f968baafbd28ecfdc3aa8186e4abcc75dd17",
+  "backup_Bernstein_embedding_feasibility.json": "4143dacf63985bd4f49d28a6d5f7b277c550229a2c6e37d4d00a8e234508c1f8",
+  "backup_local_exact_power_coefficients.json": "5fd9b542f5da56bff70f04b32ac1d0d904dc81d5712163bd0437b1a8c8480e7d",
+  "backup_linear_noise_RPI_feasibility.json": "432fe671c822d52e9a21e5196c9c236dde0dabf330d633cd504db7bac5cc2348",
+  "backup_common_P_feasibility.json": "00aff35340746d20cf23af9b0ba80289e66482afe7aa277103bc746ef614551a",
+  "backup_conditional_CPU_fixed_RPI_candidate_v2.json": "063c1149718bddee5fcd94df55ffa90bf650084645cb99fe61e90f69fff358ec",
+  "verified_battery_v1.json": "0717130ee371f2412180060894425093cf7e7ba9490d41bdc466983a0185622a",
+  "sector_generator_construction.json": "7ea5f343eb74fbd91cf05dbebb4e44fcf86c89aada9bb1f2877ec439d1f1a9ae",
+  "backup_bernstein_embedding.py": "e337233c92e1ad98bbe1ba96c2e30898fb6ff35e32fb5359bd5db664931b850e"
+}

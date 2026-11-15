@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "Q_SPD": {
+    "passed": true,
+    "minimum_pivot_lower": 0.020798279674841262
+  },
+  "outer_minus_Q_SPD": {
+    "passed": true,
+    "minimum_pivot_lower": 1.937071496711795e-07
+  },
+  "parameter_vertices": 1512,
+  "additive_sign_patterns": 16,
+  "command_signs": [
+    -1,
+    1
+  ],
+  "matrix_inequalities_checked": 48384,
+  "minimum_interval_LDL_pivot_lower": 5.610390936662892e-07,
+  "input_coefficient_containment_independently_required": true,
+  "every_supplied_vertex_and_sign_checked": true,
+  "eigenvalue_or_solver_tolerance_used": false,
+  "flight_certificate": false,
+  "schema_version": "ares.outward_interval_LMI_audit.v1",
+  "source_sha256": "1e5352a8e1c8db0c113d839d46851e2cf3644595f28aee5d7d89d31837e2eacd",
+  "coefficient_bundle_sha256": "0fc8452bc9f4dc9ce457146684680616ca9a79c389b758ab3ab86124e88c555c",
+  "alpha_exact": "4460365070947739/4503599627370496",
+  "elapsed_s": 0.09289046000048984,
+  "CPU_arithmetic_mode_checked_before_and_after": true,
+  "CPU_mode_guard_sha256": "9e54b0f6e330624ede9c2bd38bd8fa6f6888776427edc97579cad27d4a3a0e8c",
+  "CPU_mode_before": {
+    "mxcsr": 8096,
+    "mxcsr_hex": "0x1fa0",
+    "fegetround": 0,
+    "FE_TONEAREST": 0
+  },
+  "CPU_mode_after": {
+    "checks": {
+      "mxcsr_round_nearest_even": true,
+      "mxcsr_daz_disabled": true,
+      "mxcsr_ftz_disabled": true,
+      "fegetround_nearest": true
+    },
+    "passed": true
+  },
+  "platform_hypotheses": "IEEE binary64 RNE basic operations, gradual underflow, correctly rounded nextafter"
+}

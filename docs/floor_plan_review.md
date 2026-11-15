@@ -1,0 +1,11 @@
+# Phase 1 human floor-plan review
+
+The generated gallery is evidence for a human review, not an automatic plausibility score. Until a complete review is supplied, the human gate remains pending. An agent must not complete this review on the human's behalf.
+
+Open the generated `index.html` directly in a browser. It works offline without a web server or network dependencies. Review all 50 randomly selected plans. Room labels, material colours, dark rooms, door openings, closed doors, furniture footprints and a one metre scale support inspection. Use **Expand plan** to view a plan across the page at a larger size; the blue arrow in a white circle marks the spawn location. Decide whether the room proportions, layout, circulation, connections and furniture are plausible. Select **Plausible** or **Needs fix** for every plan and optionally explain issues. There are no initial approvals.
+
+Enter your reviewer name and the actual review date/time, then click **Export completed review JSON**. The browser downloads `floor_plan_review.json`. Drafts may persist in browser local storage for that exact gallery; browsers that block local storage still support reviewing and export. Export requires all decisions, reviewer and date/time.
+
+Submit the exported file with `python -m ares phase1 --review PATH_TO_REVIEW_JSON` together with the same generation options used to create the gallery. The CLI validates that the gallery identifier and canonical scene SHA-256 digests match, and every scene has exactly one boolean decision. A review passes only if at least 50 scenes were reviewed and all are plausible. A **Needs fix** decision keeps the gate from passing. Regenerated or modified scenes require a review of the matching gallery. Keep the gallery manifest with the exported review for audit.
+
+Review files use `ares.floor_plan_review.v1`: `gallery_id`, `reviewer`, `reviewed_at`, `source_scene_sha256` (scene ID to digest), and `decisions` (objects containing `scene_id`, boolean `plausible`, and string `note`). Unknown fields, incomplete decisions and duplicate scene IDs are rejected. Review identity is a human attestation; a local JSON file is not a verified identity or digital signature.

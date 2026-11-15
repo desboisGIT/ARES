@@ -1,0 +1,13 @@
+test_bad_chart_or_heading_saturation_domain_is_rejected (__main__.IntervalTaylorTests.test_bad_chart_or_heading_saturation_domain_is_rejected) ... ok
+test_force_near_zero_domain_is_rejected_before_derivatives (__main__.IntervalTaylorTests.test_force_near_zero_domain_is_rejected_before_derivatives) ... ok
+test_increment_factor_and_original_physical_real_graphs_overlap (__main__.IntervalTaylorTests.test_increment_factor_and_original_physical_real_graphs_overlap) ... ok
+test_mixed_polynomial_hessian (__main__.IntervalTaylorTests.test_mixed_polynomial_hessian) ... ok
+test_motor_exp_rational_series_encloses_high_precision_reference (__main__.IntervalTaylorTests.test_motor_exp_rational_series_encloses_high_precision_reference) ... ok
+test_scalar_chain_derivatives_have_exact_rational_enclosures (__main__.IntervalTaylorTests.test_scalar_chain_derivatives_have_exact_rational_enclosures) ... ok
+test_sqrt_endpoints_verified_by_exact_squares (__main__.IntervalTaylorTests.test_sqrt_endpoints_verified_by_exact_squares) ... ok
+test_structured_and_original_real_graph_point_enclosures_overlap (__main__.IntervalTaylorTests.test_structured_and_original_real_graph_point_enclosures_overlap) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 1.278s
+
+OK

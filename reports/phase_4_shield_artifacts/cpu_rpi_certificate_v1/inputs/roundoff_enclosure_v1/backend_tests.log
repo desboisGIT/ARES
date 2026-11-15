@@ -1,0 +1,10 @@
+test_nominal_full_body_steps_keep_original_physics_and_no_certificate (__main__.ConditionalBackendTests.test_nominal_full_body_steps_keep_original_physics_and_no_certificate) ... ok
+test_nonfinite_command_and_outside_domain_fail_before_mutation (__main__.ConditionalBackendTests.test_nonfinite_command_and_outside_domain_fail_before_mutation) ... ok
+test_post_step_domain_loss_latches_and_reports_advanced_state (__main__.ConditionalBackendTests.test_post_step_domain_loss_latches_and_reports_advanced_state) ... ok
+test_quaternion_shell_position_and_precision_guards (__main__.ConditionalBackendTests.test_quaternion_shell_position_and_precision_guards) ... ok
+test_static_program_parameters_and_battery_domains_fail_closed (__main__.ConditionalBackendTests.test_static_program_parameters_and_battery_domains_fail_closed) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.385s
+
+OK

@@ -1,0 +1,86 @@
+{
+  "status": "EXACT_SYMBOLIC_LOCAL_POLYNOMIAL_EMBEDDING_WITH_FLOAT_MATRIX_AUDIT",
+  "scope": "Exact rational RK4/motor-polynomial formula and Bernstein core coefficients enclose whole independently lifted parameter boxes for the local linear model. Eigenvalue checks of existing P on exported matrices remain float64 until rational LDL audit. Does not cover nonlinear state/measurement/numerical execution.",
+  "results": {
+    "planar_x": {
+      "Bernstein_matrices": 5292,
+      "degrees": [
+        20,
+        20
+      ],
+      "minimum_decrease_eigenvalue_float64": 0.0059798636528036134,
+      "worst_vertex": "[20, 20, (Fraction(10307503, 1048576), Fraction(20890720927744, 237780436768525), (Fraction(0, 1), Fraction(1, 1), Fraction(0, 1)))]",
+      "all_floating_checks_positive": true,
+      "max_scaled_A_norm": 3.3078571543093513
+    },
+    "vertical": {
+      "Bernstein_matrices": 1512,
+      "degrees": [
+        20,
+        5
+      ],
+      "minimum_decrease_eigenvalue_float64": 0.0021878876087108026,
+      "worst_vertex": "[0, 0, (Fraction(8388608, 4613735), Fraction(19, 20), (Fraction(0, 1), Fraction(0, 1), Fraction(1, 1)))]",
+      "all_floating_checks_positive": true,
+      "max_scaled_A_norm": 1.4964253014861928
+    },
+    "yaw": {
+      "Bernstein_matrices": 63,
+      "degrees": [
+        0,
+        20
+      ],
+      "minimum_decrease_eigenvalue_float64": 0.017511584855393583,
+      "worst_vertex": "[0, 0, (Fraction(0, 1), Fraction(0, 1), Fraction(1, 1))]",
+      "all_floating_checks_positive": true,
+      "max_scaled_A_norm": 2.6220160539586166
+    }
+  },
+  "motor_alpha_lower_rational": "43875198068069553161421542760485883095322202494440468174602107898006888573581374827485209748099391058044807850387944357642662001969022654274059599650261194925258089352901120303503594989153736822087131485000492191936557067199932246730616414858527794366999861069604907992002581491231738352218470509320326859/50133153750648367166776064972376175795112209234089985107946974845763761376038459663553043543637801459802021634076418642178440933918047688367529392613179410250152121631349193334132506646337728915125827523641973416549103385128261833078273143856330658373768835138896242387129831286074477247893810272216796875",
+  "motor_alpha_upper_rational": "25672187446434154822686689854936465786223129584231229357305481905234378510209014865665709836746961071292700516348037301200442291946592032066615615677152587082878605505707871439572305341342016098969552917576715868562682066566163714701813254116167851148739295126728363101168374961248289626806715193109/26988428547670896967787003368907924559694708959682148698936584005826815532040455076920836846641061534127569054376687612678464231901171522461544158625502925451627154209241675345958635673372172420985606133863900207673489873708269700609601309376768622600451246092145840549392232787795364856719970703125",
+  "outward_float32_physical_bounds": {
+    "mass": [
+      "15099493/33554432",
+      "4613735/8388608"
+    ],
+    "gravity": [
+      "320471/32768",
+      "10307503/1048576"
+    ],
+    "drag": [
+      "3355443/67108864",
+      "6710887/33554432"
+    ],
+    "motor_lag": [
+      "8053063/536870912",
+      "10737419/268435456"
+    ],
+    "drag_over_mass": [
+      "479349/5272840",
+      "6710887/15099493"
+    ],
+    "angular_rate_gain": [
+      "2147483648/78741075",
+      "515396100/15461881"
+    ]
+  },
+  "battery_authority_interval": [
+    "19/20",
+    "1"
+  ],
+  "battery_budget": {
+    "maximum_thrust_N": "49/2",
+    "sqrt_thrust_upper_bound": "99/20",
+    "max_power_W": "4851/5",
+    "horizon_s": "10",
+    "min_battery_energy_J": "43200",
+    "implied_authority_lower_bound": "11461/12000",
+    "scope": "Real model; numeric energy/power error still needs explicit arithmetic coverage."
+  },
+  "queue_fraction_contract": [
+    0.5,
+    2.0
+  ],
+  "exact_real_substep_s": "1/500",
+  "elapsed_s": 1.2931144300018786
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "ares.verified_norm_backend_manifest.v1",
+  "files_sha256": {
+    "README.md": "66a58336f55500384a4d9ea4a39cf7fa93836cb93d836a390b86301f05382533",
+    "audit_fullbody.py": "706891e4f1354c6ecf514bd07e50d5b76853dcede35572e0a1f186ea8d098479",
+    "backend.py": "980dc796585a3794d1513a5646bc5da40b7f2df78e93863b522c6ee297005de3",
+    "budget_compatibility.json": "55d43b5dadd9eb37f24bd9b1ac377764ab096880fc3d05d1a43bb131bf22db74",
+    "compatibility.py": "2c1e41965abfcffaf47ce4a9dbfa6148d8b2c35f9c240a7b5a5bb9170ead191b",
+    "compatibility.stdout": "55d43b5dadd9eb37f24bd9b1ac377764ab096880fc3d05d1a43bb131bf22db74",
+    "fullbody_audit.json": "bc01e269b2340eaeb2b45d5d70245cd1ae81c8615356ffa4a88701053c0c2296",
+    "fullbody_audit.stdout": "bc01e269b2340eaeb2b45d5d70245cd1ae81c8615356ffa4a88701053c0c2296",
+    "test_verified_norm.py": "891bc3dad51cb6acbbcca5708b2c013c37ae3f8354f644751a0d94dfffeda253",
+    "tests.log": "322555779c40db56a5abdc368d275eceac21a09280291db443c36ab497e9b75a",
+    "verified_sqrt.py": "322aa4e29c7c0dbe9205df3cf1f0ee778e0819a97fea1f08708b476b4780cec6"
+  },
+  "original_frozen_51_source_hashes_unchanged": true,
+  "historical_roundoff_artifact_hashes_unchanged": true,
+  "focused_tests_passed": 7,
+  "finite_full13D_cases": 128,
+  "native_regression_bitidentical": true,
+  "every_runtime_sqrt_point_exact_bin_verified": true,
+  "norm3_norm4_error_budget_compatibility_proved": true,
+  "opaque_norm_sqrt_primitive_contract_required": false,
+  "remaining_IEEE_basic_arithmetic_contract_required": true,
+  "flight_certificate": false
+}

@@ -1,0 +1,7 @@
+{
+  "tests_run": 6,
+  "passed": true,
+  "arithmetic_rational_reference_intervals": 1000,
+  "SPD_fraction_reference_matrices": 60,
+  "flight_certificate": false
+}

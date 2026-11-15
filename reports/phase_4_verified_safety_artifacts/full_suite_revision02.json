@@ -1,0 +1,11 @@
+{
+  "command": ".venv/bin/python -m unittest discover -s tests -v",
+  "tests_run": 358,
+  "passed": true,
+  "elapsed_s": 79.164,
+  "python_source_files": 55,
+  "sources_stable": true,
+  "changed": [],
+  "log": "reports/phase_4_verified_safety_artifacts/full_suite_revision02.log",
+  "log_sha256": "a6a9fa1b6d5a406e2aa49f56f20e6a7548344ffae8d2b8ab01451f1d29d01a0f"
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": "ares.verified_point_kernel_v2_compatibility.v1",
+  "all_module_AST_except_I_atan_identical": true,
+  "I_methods_except_atan_identical": {
+    "__init__": true,
+    "cast": true,
+    "__add__": true,
+    "__neg__": true,
+    "__sub__": true,
+    "__rsub__": true,
+    "__mul__": true,
+    "__truediv__": true,
+    "sqrt": true
+  },
+  "backup_point_output32_AST_identical": {
+    "backup_point": true,
+    "output32": true
+  },
+  "maximum_series_terms": 33,
+  "exact_early_stop_width": "1/1000000000000",
+  "universal_final_term_width_upper": "1/9887454823508319666176",
+  "same_REAL_law_gains_domains_and_actuator_branches": true,
+  "same_exact_uniform_command_error_contract": "output32 checks each final command against Fraction.from_float(1e-6) unchanged",
+  "existing_RPI_numeric_command_error_contract_unchanged": true,
+  "proof": "For0<=x<=1/2 the alternating atan terms decrease to0; partial sum and next signed term bracket the exact atan. The interval width is exactly the next term. Stop only at exact width<=1e-12 or at33terms, whose worst-case next term is(1/2)^67/67<1e-12. Negative arguments reflect the enclosure. Atan is monotone, so endpoint brackets enclose each interval. The unchanged output32 then verifies the final1e-6 contract independently of any early stop.",
+  "flight_certificate": false,
+  "source_sha256": {
+    "verified_backup_point_v1.py": "96f2f4de11cf2d1414d47927ce996057daf5847a93a542719a12a102c1ef74b1",
+    "verified_backup_point_v2.py": "1b142116bca31baf35cb14ad37cdad25db5281e9dc2a59c7269e9e4b8617efc0"
+  }
+}

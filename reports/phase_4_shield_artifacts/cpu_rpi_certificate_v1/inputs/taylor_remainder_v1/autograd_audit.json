@@ -1,0 +1,224 @@
+{
+  "scope": "Finite float64 autograd audit against existing vendor/backup implementation; tolerance1e-9 for different floating evaluation graphs, NOT a proof of all-state/parameter/rounding containment.",
+  "all_six_audits_within_tolerance": true,
+  "cases": [
+    {
+      "equilibrium_float64_residual_max": 0.0,
+      "nonlinear_plus_noise_remainder_max": 0.018451733572008924,
+      "remainder_excess_over_interval_bound": 0.0,
+      "case": 0,
+      "branch": 0,
+      "parameters": {
+        "m": 0.44999998807907104,
+        "g": 9.779999732971191,
+        "drag": 0.05000000074505806,
+        "tau": 0.014999999664723873,
+        "j": [
+          0.0017999999690800905,
+          0.002199999988079071,
+          0.0027000000700354576
+        ],
+        "jn": [
+          0.0020000000949949026,
+          0.0020000000949949026,
+          0.003000000026077032
+        ],
+        "battery": 0.95,
+        "delay_fraction": 0.75
+      },
+      "point_value_float64_excess": 1.942890293094024e-16,
+      "point_jacobian_float64_excess": 1.175745258260013e-17,
+      "point_selected_hessian_float64_excess": 6.873835420810994e-16,
+      "full_domain_selected_hessian_float64_excess": 0.0,
+      "hessian_outputs_checked": [
+        3,
+        9,
+        13,
+        14
+      ]
+    },
+    {
+      "equilibrium_float64_residual_max": 0.0,
+      "nonlinear_plus_noise_remainder_max": 0.005079456295487887,
+      "remainder_excess_over_interval_bound": 3.608224830031759e-16,
+      "case": 1,
+      "branch": 1,
+      "parameters": {
+        "m": 0.44999998807907104,
+        "g": 9.829999923706055,
+        "drag": 0.20000000298023224,
+        "tau": 0.03999999910593033,
+        "j": [
+          0.002199999988079071,
+          0.0017999999690800905,
+          0.0032999999821186066
+        ],
+        "jn": [
+          0.0020000000949949026,
+          0.0020000000949949026,
+          0.003000000026077032
+        ],
+        "battery": 0.95,
+        "delay_fraction": 0.5
+      },
+      "point_value_float64_excess": 5.410168840702667e-17,
+      "point_jacobian_float64_excess": 5.293955920339377e-23,
+      "point_selected_hessian_float64_excess": 5.931102573593534e-16,
+      "full_domain_selected_hessian_float64_excess": 5.421010862427522e-19,
+      "hessian_outputs_checked": [
+        3,
+        9,
+        13,
+        14
+      ]
+    },
+    {
+      "equilibrium_float64_residual_max": 0.0,
+      "nonlinear_plus_noise_remainder_max": 0.006997319034845455,
+      "remainder_excess_over_interval_bound": 0.0,
+      "case": 2,
+      "branch": 0,
+      "parameters": {
+        "m": 0.550000011920929,
+        "g": 9.779999732971191,
+        "drag": 0.05000000074505806,
+        "tau": 0.014999999664723873,
+        "j": [
+          0.0017999999690800905,
+          0.002199999988079071,
+          0.0027000000700354576
+        ],
+        "jn": [
+          0.0020000000949949026,
+          0.0020000000949949026,
+          0.003000000026077032
+        ],
+        "battery": 0.95,
+        "delay_fraction": 0.75
+      },
+      "point_value_float64_excess": 0.0,
+      "point_jacobian_float64_excess": 1.851590199896259e-17,
+      "point_selected_hessian_float64_excess": 7.19259628582655e-16,
+      "full_domain_selected_hessian_float64_excess": 0.0,
+      "hessian_outputs_checked": [
+        3,
+        9,
+        13,
+        14
+      ]
+    },
+    {
+      "equilibrium_float64_residual_max": 0.0,
+      "nonlinear_plus_noise_remainder_max": 0.008807146812783174,
+      "remainder_excess_over_interval_bound": 3.885780586188048e-16,
+      "case": 3,
+      "branch": 1,
+      "parameters": {
+        "m": 0.550000011920929,
+        "g": 9.829999923706055,
+        "drag": 0.20000000298023224,
+        "tau": 0.03999999910593033,
+        "j": [
+          0.002199999988079071,
+          0.0017999999690800905,
+          0.0032999999821186066
+        ],
+        "jn": [
+          0.0020000000949949026,
+          0.0020000000949949026,
+          0.003000000026077032
+        ],
+        "battery": 1.0,
+        "delay_fraction": 0.5
+      },
+      "point_value_float64_excess": 1.249000902703301e-16,
+      "point_jacobian_float64_excess": 1.5881867761018131e-22,
+      "point_selected_hessian_float64_excess": 3.3436646768687187e-16,
+      "full_domain_selected_hessian_float64_excess": 3.5236570605778894e-19,
+      "hessian_outputs_checked": [
+        3,
+        9,
+        13,
+        14
+      ]
+    },
+    {
+      "equilibrium_float64_residual_max": 0.0,
+      "nonlinear_plus_noise_remainder_max": 0.00883976651306198,
+      "remainder_excess_over_interval_bound": 0.0,
+      "case": 4,
+      "branch": 0,
+      "parameters": {
+        "m": 0.5,
+        "g": 9.779999732971191,
+        "drag": 0.05000000074505806,
+        "tau": 0.014999999664723873,
+        "j": [
+          0.0017999999690800905,
+          0.002199999988079071,
+          0.0027000000700354576
+        ],
+        "jn": [
+          0.0020000000949949026,
+          0.0020000000949949026,
+          0.003000000026077032
+        ],
+        "battery": 1.0,
+        "delay_fraction": 0.75
+      },
+      "point_value_float64_excess": 3.7816971776294395e-16,
+      "point_jacobian_float64_excess": 8.080694316806025e-19,
+      "point_selected_hessian_float64_excess": 6.570249283394396e-17,
+      "full_domain_selected_hessian_float64_excess": 0.0,
+      "hessian_outputs_checked": [
+        3,
+        9,
+        13,
+        14
+      ]
+    },
+    {
+      "equilibrium_float64_residual_max": 0.0,
+      "nonlinear_plus_noise_remainder_max": 0.007997644935218809,
+      "remainder_excess_over_interval_bound": 6.38378239159465e-16,
+      "case": 5,
+      "branch": 1,
+      "parameters": {
+        "m": 0.5,
+        "g": 9.829999923706055,
+        "drag": 0.20000000298023224,
+        "tau": 0.03999999910593033,
+        "j": [
+          0.002199999988079071,
+          0.0017999999690800905,
+          0.0032999999821186066
+        ],
+        "jn": [
+          0.0020000000949949026,
+          0.0020000000949949026,
+          0.003000000026077032
+        ],
+        "battery": 1.0,
+        "delay_fraction": 0.5
+      },
+      "point_value_float64_excess": 5.898059818321144e-16,
+      "point_jacobian_float64_excess": 8.470329472543003e-22,
+      "point_selected_hessian_float64_excess": 5.390650025224376e-16,
+      "full_domain_selected_hessian_float64_excess": 7.047314121155779e-19,
+      "hessian_outputs_checked": [
+        3,
+        9,
+        13,
+        14
+      ]
+    }
+  ],
+  "elapsed_s": 4.056353473999479,
+  "prototype_source_sha256": "6219c05d95cebe81f9a3714baa9dbfc833a374c303ff3e8eae9988359062ab1d",
+  "runtime_source_sha256": {
+    "flight_control.py": "e57b358bd0cbf2716f2dd9fcdf0a293664b7a4904a33a2e615105dd5b2d5fc52",
+    "vendor/diffaero/quadrotor.py": "e67588b41bd9121ca5931d6f3bdf2858256ca5459f6503c1e1eefc2cbce274ef",
+    "vendor/diffaero/controller.py": "53ba647182d68306626c50314c3843b4883df95098451c70823fec82d3b4fa63",
+    "vendor/diffaero/math.py": "c12e37d8eeecd0ffb994711bebe0d253cdf47645397b0dfb63d5f92324b44cf7"
+  }
+}

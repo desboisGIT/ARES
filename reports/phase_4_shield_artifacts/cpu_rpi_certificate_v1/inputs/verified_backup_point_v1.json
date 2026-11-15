@@ -1,0 +1,8 @@
+{
+  "valid_point_cases": 20,
+  "maximum_certified_command_error": 2.287962567344523e-07,
+  "primitive_interval_law_proved": true,
+  "all_error_checks_exact": true,
+  "model_or_reachability_certificate": false,
+  "flight_certificate": false
+}

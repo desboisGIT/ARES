@@ -1,0 +1,123 @@
+{
+  "schema_version": "ares.phase4_shield_research.v1",
+  "conditional_shield_design": {
+    "status": "historical_linear_design_superseded_by_conditional_cpu_bundle",
+    "artifacts_sha256": {
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/public_trim_contract.md": "0adc04c1afb51b93c7557e1d57b8c5003f3c115a6ea124375241ed23fe28d0e5",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/backup_linear_noise_exact_audit.py": "170706f53c81336b966b17c58d0eadc3b0a3192462afad33b69af8c17e7f6038",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/backup_linear_feasibility.json": "bd40650ff665dfe19f049e222ac93d10f63857edfdccca7fcc46bad96ca8b9b9",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/backup_local_linear_candidate.npz": "d679db5de1d35eef4068a8aa4aaf102bad703ecfe22d9542a1e5d367f1507c68",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/backup_exact_matrix_audit.json": "54f55d07ec3c854de3eb483d91737bce9037899462ea1fc39a05475224c98e8b",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/planar_x_Bernstein_vertices.npz": "1d8e2a9fdfc485a69a6da72ab48976e6e673230d98d0578b17f1e82eab0de94c",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/backup_common_P_candidate.npz": "ab2a9da9a19893647ca6852ed8a041c73c096e36fc940e044904d753c01c1c82",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/backup_common_P_feasibility.py": "b110b07fba4d1ca99c7e9c870bdb17f6b6b5a4ca2a78cad63d88c37e094f6605",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/backup_Bernstein_embedding_feasibility.json": "3e5d0596dd89e68a40bd8c62ce978a3d254fb33877bbb8a6712aa9fdcbb6c2d9",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/backup_local_exact_power_coefficients.json": "5fd9b542f5da56bff70f04b32ac1d0d904dc81d5712163bd0437b1a8c8480e7d",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/backup_linear_noise_RPI_feasibility.json": "432fe671c822d52e9a21e5196c9c236dde0dabf330d633cd504db7bac5cc2348",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/backup_linear_feasibility.py": "63c93f91120be8632b11f6763533e313c2fdec09c49c8360c90bb514abf05ffa",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/backup_common_P_feasibility.json": "00aff35340746d20cf23af9b0ba80289e66482afe7aa277103bc746ef614551a",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/backup_Bernstein_exact_audit.json": "1d2721737c8d4e6386a584fa08858e1db91e2cd9b1fe9192bedf48f59613f4e4",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/backup_direct_contraction_audit.py": "a0f5a50b056f4f4092195f1837d48139629966c43b41977ffcf7072d9321b8ac",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/state_map_contract_prototype.py": "409dc5e61163d5f6e93697a665793cdeec11ab2e7cb91a27d8011990d53aef55",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/vertical_Bernstein_vertices.npz": "6824ba8371af050fd5547b939a1b9f387c3bcdb90f4bb76c4ce442ad05be377a",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/backup_Bernstein_exact_audit.py": "a55c0ec1ab1bb2608e45e8141ddaf51be9e4b11efa9c817d1d453f5c9372d3c4",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/backup_product_RPI_test.py": "941a3de25c57c05c6e2ad1a3acdd768cdaac88a67d10358d63ab6bcb5d7842ce",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/backup_linear_noise_RPI_feasibility.py": "62a12ba45188e9cb954e86af510ae41414cb1ecb043ecf893200f94e22e4b55f",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/backup_product_RPI_feasibility.json": "2430c22b4fb4febaccf4d469404e2377cc107f5ce704d583589b456c23586f58",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/backup_noise_Q_oriented_Hessian_feasibility.json": "d5ffe88e8b6093ad9d232a65b53d342a6edc6d8f33a140f96cb32b1fe843c2b1",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/README.md": "4ac94ef8920c5787110658e270886a246e4b3e73cdd2abcad199c150812420a4",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/backup_oriented_Hessian_test.py": "a52780da3f42c42d3157289694700ea535cb933f4daa639a4d682128fe427211",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/yaw_Bernstein_vertices.npz": "6dad99b3f11f009768c8910a7e2cf609bc13dc6c351c96ef107d185cbba24f9b",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/backup_bernstein_embedding.py": "e337233c92e1ad98bbe1ba96c2e30898fb6ff35e32fb5359bd5db664931b850e",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/backup_linear_noise_exact_audit.json": "74f1e05f47efc938579025ae681c4a8c1fa772106ba562f4eb7fe669357a9e37",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/conditional_gate_design.md": "a450f7ae57f79c050dba369aa6df4db17c8cee9b741bf31eda4f17e423a79563",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/backup_oriented_Hessian_feasibility.json": "5aec674eaa3208920a3217eed56bb7b73eb8745072b82f09884d3f761f11bd24",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/backup_exact_matrix_audit.py": "31ec8561fa17865f70a7d40ac6056d76951f7b024b5cda34401ab11f34d8c6eb",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/backup_direct_contraction_audit.json": "a63637224179fc81dde16f83d6e4fc71312160097c096c61b3f2939392f53c27",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/backup_noise_Q_oriented_Hessian_test.py": "9967c3a089bac4ec84f03952ece4398fab122ca01e6b725e7b1f3feec1a2afe1",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/manifest.json": "322017763b993fb114a32d05dd6443f3643f6b20f61ff8df1abb865ad04d3bc7",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/local_linear_float32_domain_battery1_v2/planar_x_Bernstein_vertices.npz": "a21a5ab2a39be99d05e4558a4679a3ead6b08c7c8daa04019c6ae487aa840c8d",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/local_linear_float32_domain_battery1_v2/backup_Bernstein_embedding_feasibility.json": "a884d372f71da93ffd2c3e0d8bd7c7322bda85c40eb705e0998e348f8e67d8ff",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/local_linear_float32_domain_battery1_v2/backup_local_exact_power_coefficients.json": "5fd9b542f5da56bff70f04b32ac1d0d904dc81d5712163bd0437b1a8c8480e7d",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/local_linear_float32_domain_battery1_v2/backup_Bernstein_exact_audit.json": "a7050bf8052a4e7975f10f22cf2e0fbeb3d2d55cdd152c0cd841766faad6bffe",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/local_linear_float32_domain_battery1_v2/vertical_Bernstein_vertices.npz": "39cdd25a593eb1dc0d5f9bdab9fda536ee1e9c50beed23c14457a7ff3a4e6942",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/local_linear_float32_domain_battery1_v2/backup_Bernstein_exact_audit.py": "c072faadbde95da3c828c45410b0831309a40fd7f85b049271492b73f19f0b55",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/local_linear_float32_domain_battery1_v2/yaw_Bernstein_vertices.npz": "6dad99b3f11f009768c8910a7e2cf609bc13dc6c351c96ef107d185cbba24f9b",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/local_linear_float32_domain_battery1_v2/backup_bernstein_embedding.py": "91e7c627187e65d70d5656cfbddbefb353ca4e4d35a48e3d585877d0559bfbb1",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/local_linear_decimal_domain_v1/planar_x_Bernstein_vertices.npz": "609064b7a1b4da7243706bd3df5719722054ea957b0ae599d9504b1e70ea0147",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/local_linear_decimal_domain_v1/backup_Bernstein_embedding_feasibility.json": "6d918e1916d8e256685b32011865bc190a4d6b8d689c99b040553194b8289062",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/local_linear_decimal_domain_v1/backup_local_exact_power_coefficients.json": "80f5fdfb43d7d1a9caaf804f2d45bd363c011a7271f5b53e4a8c1bb9a8d5f37c",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/local_linear_decimal_domain_v1/backup_Bernstein_exact_audit.json": "e6a8dd52e099067ae10478bc268b7d89edc1d4a82059679fc6a0a0c06e383208",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/local_linear_decimal_domain_v1/vertical_Bernstein_vertices.npz": "d3549f543cd792544324b84bf6f9f66149a2e30e83eb133a575fe2aeab98092b",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/local_linear_decimal_domain_v1/backup_Bernstein_exact_audit.py": "f2792aa027818096c1b6d7e03fd347ad3a3ad1df083bccc24b52a1c4fe3e3684",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/local_linear_decimal_domain_v1/yaw_Bernstein_vertices.npz": "cf1d9a36a16179558b31906ae36c2fa1aafc8659213cafe5bc1b2aecffdc954c",
+      "reports/phase_4_learning_artifacts/diagnosis/shield_design/local_linear_decimal_domain_v1/backup_bernstein_embedding.py": "d9cae59239506371ea8af1a8c3be7fd212b620337c49433d7b2d9abdc42508fa"
+    },
+    "ares_runtime_edited": false,
+    "local_linear_proof": "Exact rational Bernstein/LDL local contraction AND useful bounded-noise LOCAL LINEAR RPI over outward Float32 physical profile intervals plus authority [.95,1]. Full nonlinear/rounding/authority-drift guard remains unproved."
+  },
+  "safety_contract_module": "ares/safety_contract.py",
+  "frozen_flight_source_manifest": "reports/phase_4_gate_artifacts/test_freeze.json",
+  "flight_certificate": false,
+  "current_conditional_SIL_status": {
+    "nonlinear_backup_mathematics_closed": true,
+    "selected_component_steps": 8000,
+    "selected_component_functional_and_timing_passed": true,
+    "adversarial_functional_passed": true,
+    "adversarial_timing_passed": true,
+    "bounded_GC_Docker_diagnostic_steps": 1000,
+    "bounded_GC_Docker_diagnostic_timing_passed": true,
+    "public_streaming_renewal_demonstrated": true,
+    "learned_full_mission_integration_passed": false,
+    "new_prior_observed_map_validation_status": "not_started",
+    "next_positive_protocol_scope": "Waypoint flight in a static local map genuinely observed by bounded first-hit preflight rays; unresolved cells stay unknown. Active exploration is Phase5. Old unknown-crossing and timing failures are retained.",
+    "shield_gate_passed": false,
+    "nonhardware_ready": false,
+    "actual_onboard_inference_status": "deferred_no_hardware",
+    "evidence": {
+      "nonlinear_certificate": {
+        "path": "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/certificate.json",
+        "sha256": "7a90aad6cf0cdc9f92148be849f8bbf6d18609bf768aa5dc84970da4609407af"
+      },
+      "selected_component": {
+        "path": "reports/phase_4_gate_artifacts/shield_research/coupled_reanchoring_v1/retry_003/summary.json",
+        "sha256": "f67f1daa464edaa3a4522e2b402c6ee6cc4df0f0cf8ab4b9c10aed4530535b7d"
+      },
+      "adversarial": {
+        "path": "reports/phase_4_gate_artifacts/shield_research/adversarial_reanchoring_v1/summary.json",
+        "sha256": "da6b4039e747e34c4b60b7b68e78818a11f06631916a6084f58fda58ebd2eccd"
+      },
+      "gc_diagnostic": {
+        "path": "reports/phase_4_gate_artifacts/shield_research/gc_worker_diagnostic_v1/summary.json",
+        "sha256": "d1ad6891155b1e6b021df3581abfb91896ad4da2c729b704956203a6e4a3d2c7"
+      },
+      "renewal_compatibility": {
+        "path": "reports/phase_4_gate_artifacts/shield_research/renewable_trim_stream_v3/compatibility.json",
+        "sha256": "ff6523af2c5b3ab59ed586f20321d8b723a349aab01d9d29bb83306eaf40e779"
+      },
+      "learned_stream_development": {
+        "path": "reports/phase_4_gate_artifacts/shield_research/learned_mission_bridge_v3/development_stream_low4500.json",
+        "sha256": "406185a3d36cc3443ca6cf966071f1ecf994b58ac7e5ba7a760a080e783332ad"
+      },
+      "learned_coverage_development": {
+        "path": "reports/phase_4_gate_artifacts/shield_research/learned_mission_bridge_v3/development_coverage_hold4500.json",
+        "sha256": "4dddc359d92a3ed308864321f29d99c59d6373725856d3be535284f03b15b424"
+      },
+      "adversarial_GC_retest": {
+        "path": "reports/phase_4_gate_artifacts/shield_research/adversarial_gc_v2/attempt_002/derived_summary_v1.json",
+        "sha256": "49c3fb679916f50361a0f5ec5325d40d6cfdefe18034e63c7698eb580bf0aa2a"
+      },
+      "learned_prior_map_development": {
+        "path": "reports/phase_4_gate_artifacts/shield_research/learned_prior_map_v4/development_prior_low4500.json",
+        "sha256": "994cdeb4fde3e777a8f8f9dce6983d4cae5aecf1441edb57d752d4c80b983b3f"
+      }
+    },
+    "adversarial_retest_steps": 3000,
+    "adversarial_retest_control_max_s": 0.003831876994809136,
+    "learned_development_mission_passed": true,
+    "learned_development_physical_steps": 1848,
+    "learned_development_renewals": 4,
+    "learned_development_all_in_control_max_s": 0.006711799011100084,
+    "learned_development_control_calls_over10ms": 0
+  }
+}

@@ -1,0 +1,369 @@
+{
+  "status": "NUMERICAL_SUFFICIENT_NONLINEAR_SEARCH_NOT_EXACT_AUDITED",
+  "combined_disturbance": "w=Gamma*(linear_measurement_cmd_error+joint_controller_NL)+physical_flow_box+correlated_one_dimensional_battery_equilibrium_drift; preserve all correlations within Gamma and drift vector.",
+  "records": [
+    {
+      "group": "planar_x",
+      "alpha": 0.99,
+      "parameter_vertices": 84672,
+      "joint_additive_sign_patterns": 16,
+      "iterations": [
+        {
+          "iteration": 0,
+          "status": "optimal_inaccurate",
+          "active": 24,
+          "worst_float_residual_eig": -0.025812334230903247
+        },
+        {
+          "iteration": 1,
+          "status": "optimal_inaccurate",
+          "active": 40,
+          "worst_float_residual_eig": -0.01277297140883249
+        },
+        {
+          "iteration": 2,
+          "status": "optimal_inaccurate",
+          "active": 56,
+          "worst_float_residual_eig": -0.0030520061717153944
+        },
+        {
+          "iteration": 3,
+          "status": "optimal_inaccurate",
+          "active": 72,
+          "worst_float_residual_eig": -0.0026232987044385227
+        },
+        {
+          "iteration": 4,
+          "status": "optimal_inaccurate",
+          "active": 88,
+          "worst_float_residual_eig": -0.0015634795362714478
+        },
+        {
+          "iteration": 5,
+          "status": "optimal",
+          "active": 104,
+          "worst_float_residual_eig": -0.003575845130574222
+        },
+        {
+          "iteration": 6,
+          "status": "optimal_inaccurate",
+          "active": 120,
+          "worst_float_residual_eig": -0.0020580900894600603
+        },
+        {
+          "iteration": 7,
+          "status": "optimal",
+          "active": 136,
+          "worst_float_residual_eig": -0.001451951905702253
+        },
+        {
+          "iteration": 8,
+          "status": "optimal",
+          "active": 152,
+          "worst_float_residual_eig": -0.0003100537701577261
+        },
+        {
+          "iteration": 9,
+          "status": "optimal_inaccurate",
+          "active": 168,
+          "worst_float_residual_eig": -0.0002811731914493581
+        },
+        {
+          "iteration": 10,
+          "status": "optimal_inaccurate",
+          "active": 184,
+          "worst_float_residual_eig": -3.864464725976997e-06
+        },
+        {
+          "iteration": 11,
+          "status": "optimal",
+          "active": 186,
+          "worst_float_residual_eig": 9.998844751804524e-09
+        }
+      ],
+      "outer_Loewner_constraint": true,
+      "controller_NL_bound": 0.012492120922955294,
+      "physical_flow_box": [
+        5.044326801334943e-06,
+        9.207648670912723e-06,
+        6.977229377223689e-06,
+        6.585677729907778e-05,
+        0.0,
+        0.0
+      ],
+      "correlated_authority_drift_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Q_scaled": [
+        [
+          1.3404230752373125,
+          -0.7690160222813114,
+          -0.09345907838527766,
+          0.1580461777128903,
+          0.16929088170367082,
+          0.16824828368075892
+        ],
+        [
+          -0.7690160222813114,
+          1.0950644645925698,
+          -0.24409701365405476,
+          -0.5974012871723184,
+          -0.4450132697229864,
+          -0.47705680937711514
+        ],
+        [
+          -0.09345907838527766,
+          -0.24409701365405476,
+          0.5982728267781496,
+          -0.31898849965193965,
+          -0.9540068244021275,
+          -0.9431138738826647
+        ],
+        [
+          0.1580461777128903,
+          -0.5974012871723184,
+          -0.31898849965193965,
+          7.804103726251986,
+          2.016960665160699,
+          3.6557628417147265
+        ],
+        [
+          0.16929088170367082,
+          -0.4450132697229864,
+          -0.9540068244021275,
+          2.016960665160699,
+          17.287032394439304,
+          3.0392630346656633
+        ],
+        [
+          0.16824828368075892,
+          -0.47705680937711514,
+          -0.9431138738826647,
+          3.6557628417147265,
+          3.0392630346656633,
+          23.443279475553584
+        ]
+      ],
+      "physical_radii": [
+        0.1157766416526802,
+        0.10464532787432844,
+        0.015469619604607604,
+        0.27935825969983397,
+        0.41577677177109484,
+        0.4841826047634672
+      ]
+    },
+    {
+      "group": "vertical",
+      "alpha": 0.9904,
+      "parameter_vertices": 1512,
+      "joint_additive_sign_patterns": 16,
+      "iterations": [
+        {
+          "iteration": 0,
+          "status": "optimal",
+          "active": 24,
+          "worst_float_residual_eig": -0.022916438991378154
+        },
+        {
+          "iteration": 1,
+          "status": "optimal",
+          "active": 40,
+          "worst_float_residual_eig": -0.01686464567000721
+        },
+        {
+          "iteration": 2,
+          "status": "optimal",
+          "active": 56,
+          "worst_float_residual_eig": -0.0013670000192914382
+        },
+        {
+          "iteration": 3,
+          "status": "optimal",
+          "active": 72,
+          "worst_float_residual_eig": -0.00013262804226598924
+        },
+        {
+          "iteration": 4,
+          "status": "optimal",
+          "active": 88,
+          "worst_float_residual_eig": -0.00010698388233577903
+        },
+        {
+          "iteration": 5,
+          "status": "optimal",
+          "active": 104,
+          "worst_float_residual_eig": -1.4900433798335111e-05
+        },
+        {
+          "iteration": 6,
+          "status": "optimal",
+          "active": 120,
+          "worst_float_residual_eig": -7.682992596428725e-06
+        },
+        {
+          "iteration": 7,
+          "status": "optimal",
+          "active": 136,
+          "worst_float_residual_eig": -0.00022429715232712299
+        },
+        {
+          "iteration": 8,
+          "status": "optimal",
+          "active": 152,
+          "worst_float_residual_eig": -2.34644278372327e-06
+        },
+        {
+          "iteration": 9,
+          "status": "optimal",
+          "active": 168,
+          "worst_float_residual_eig": 9.999718750099836e-09
+        }
+      ],
+      "outer_Loewner_constraint": true,
+      "controller_NL_bound": 0.006385216963646398,
+      "physical_flow_box": [
+        5.532500603705097e-06,
+        0.0001072255536140208,
+        7.000000000000001e-06,
+        0.0,
+        0.0
+      ],
+      "correlated_authority_drift_vector": [
+        5.111964186621784e-05,
+        0.0,
+        0.0,
+        -3.833973139966338e-05,
+        -3.833973139966338e-05
+      ],
+      "Q_scaled": [
+        [
+          0.020798279674841262,
+          -0.0791753468893735,
+          -0.002669250839985683,
+          -0.0021113053843026166,
+          -0.0021144938702111027
+        ],
+        [
+          -0.0791753468893735,
+          0.6509671429828535,
+          -0.05087342497908248,
+          -0.07726099324715095,
+          -0.08169719847406469
+        ],
+        [
+          -0.002669250839985683,
+          -0.05087342497908248,
+          0.2133830772510578,
+          0.013281504054013885,
+          0.05369411146991868
+        ],
+        [
+          -0.0021113053843026166,
+          -0.07726099324715095,
+          0.013281504054013885,
+          0.3006034296398015,
+          0.0261816022268932
+        ],
+        [
+          -0.0021144938702111027,
+          -0.08169719847406469,
+          0.05369411146991868,
+          0.0261816022268932,
+          0.48215269616502726
+        ]
+      ],
+      "physical_radii": [
+        0.10095126071858744,
+        0.08068253485004383,
+        0.2309670307917657,
+        0.27413656707916656,
+        0.3471860798494905
+      ]
+    },
+    {
+      "group": "yaw",
+      "alpha": 0.985,
+      "parameter_vertices": 63,
+      "joint_additive_sign_patterns": 4,
+      "iterations": [
+        {
+          "iteration": 0,
+          "status": "optimal_inaccurate",
+          "active": 24,
+          "worst_float_residual_eig": -6.692302254365509e-05
+        },
+        {
+          "iteration": 1,
+          "status": "optimal",
+          "active": 40,
+          "worst_float_residual_eig": -1.0711297159029196e-05
+        },
+        {
+          "iteration": 2,
+          "status": "optimal",
+          "active": 56,
+          "worst_float_residual_eig": 9.99948166353969e-09
+        }
+      ],
+      "outer_Loewner_constraint": true,
+      "controller_NL_bound": 0.0031292203056649177,
+      "physical_flow_box": [
+        3.061078457458608e-05,
+        0.00017595043545214477,
+        0.0,
+        0.0
+      ],
+      "correlated_authority_drift_vector": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Q_scaled": [
+        [
+          0.007037861272292493,
+          -0.010085581538102163,
+          -0.01636775851844808,
+          -0.016052080785220423
+        ],
+        [
+          -0.010085581538102163,
+          0.09243596542705525,
+          0.027182609731914466,
+          0.040901283599003774
+        ],
+        [
+          -0.01636775851844808,
+          0.027182609731914466,
+          0.17556124073747753,
+          0.0416872783773892
+        ],
+        [
+          -0.016052080785220423,
+          0.040901283599003774,
+          0.0416872783773892,
+          0.2377300292759403
+        ]
+      ],
+      "physical_radii": [
+        0.0016778392381026847,
+        0.030403283610007534,
+        0.041900028727612774,
+        0.048757566518022655
+      ]
+    }
+  ],
+  "source_exact_remainder": "backup_quantized_exact_oriented_remainder_audit.json",
+  "source_numerical_budget": "reports/phase_4_gate_artifacts/shield_research/roundoff_enclosure_v1/conditional_projective21_budget.json",
+  "verified_point_command_error_per_axis": 1e-06,
+  "battery_step_decline_upper_rational": "1/156250",
+  "battery_primitive_lemma": "reports/phase_4_gate_artifacts/shield_research/verified_battery_v1.json",
+  "anchor_translation_per_axis_per_period_rational": "0",
+  "elapsed_s": 21.63493120399653
+}

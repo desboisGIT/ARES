@@ -115,3 +115,11 @@ The packaged authoritative files are `ares/data/scenes/three_room.json` and
 The scene is a 6.4 m × 2.4 m × 2.6 m grid with enclosed floor, walls and ceiling,
 three rooms, and two 0.8 m × 2.0 m open doorways. The scene does not introduce
 procedural generation, depth simulation, or a flight model.
+
+## Phase 2 additions
+
+The validator also supports `ares.profile.v2`, with every v1 parameter plus
+explicit sensor/noise/scheduling parameters. It preserves the original v1 key
+set and semantics; see `profile_v2.md`. Actual sensor recordings use a separate
+`ares.sensor_recording.v1` contract (`recording_format.md`). The Phase 0
+`ares.flight_log.v1` contract retains its original null sensor fields.

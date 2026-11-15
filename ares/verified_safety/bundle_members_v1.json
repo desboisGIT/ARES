@@ -1,0 +1,786 @@
+{
+  "reports/phase_4_gate_artifacts/frozen_flight_runtime/source_manifest.json": {
+    "bytes": 4495,
+    "sha256": "86472700a41d3f24453eda2b5f234871dffe7b943ff6db129f720607978985a0"
+  },
+  "reports/phase_4_gate_artifacts/shield_research/assemble_initial_contract_v1.py": {
+    "bytes": 7083,
+    "sha256": "3f3251bb588f377cc37fc3c61e1b52968e5abab7245a2110f4c81ed5f96a4d41"
+  },
+  "reports/phase_4_gate_artifacts/shield_research/bounded_service_v1/bounded_service.py": {
+    "bytes": 12648,
+    "sha256": "9da7cb6fd360e25ef7f0f5c7d928d2ff5cc19ff590a273d66223ee6f294ca181"
+  },
+  "reports/phase_4_gate_artifacts/shield_research/bounded_service_v1/known_free_map.json": {
+    "bytes": 4770875,
+    "sha256": "ffc2c23093f18c3a00ebfcb7cc87ec23451b41895a744b563db1567d6c8e7d73"
+  },
+  "reports/phase_4_gate_artifacts/shield_research/bounded_service_v1/sensor_renderer.py": {
+    "bytes": 5541,
+    "sha256": "018285a1db1dbfd44e64c3098ac05728d9d58267a2c449d7b00b882190f9a415"
+  },
+  "reports/phase_4_gate_artifacts/shield_research/coupled_reanchoring_v1/run_coupled.py": {
+    "bytes": 18638,
+    "sha256": "61eb771c5eecc957d666b06818e0966f433ae7b42005c0bb2f4a1739338c9d4c"
+  },
+  "reports/phase_4_gate_artifacts/shield_research/coupled_reanchoring_v1/run_sweep.py": {
+    "bytes": 4776,
+    "sha256": "36ec48a181523119acd0c957e484df835961719fab8da496c14495e057910c2e"
+  },
+  "reports/phase_4_gate_artifacts/shield_research/cpu_arithmetic_guard_v1.py": {
+    "bytes": 6204,
+    "sha256": "9e54b0f6e330624ede9c2bd38bd8fa6f6888776427edc97579cad27d4a3a0e8c"
+  },
+  "reports/phase_4_gate_artifacts/shield_research/current_terminal_membership_v1.py": {
+    "bytes": 10324,
+    "sha256": "31dfe0cf3051f08ba3565a81a2726c122bf6d34f94791b1da38d8ec06a5bc07f"
+  },
+  "reports/phase_4_gate_artifacts/shield_research/initial_contract_v1.json": {
+    "bytes": 260457,
+    "sha256": "d0808e38473b635a421a24a42c529ecf2e16c6144df87ed0f849e942323f82a8"
+  },
+  "reports/phase_4_gate_artifacts/shield_research/initial_terminal_membership_v1.py": {
+    "bytes": 6124,
+    "sha256": "3cf64c0dd76dd2d427b66d9251eecc353f18032bbca405525c8deb9510fc3cfa"
+  },
+  "reports/phase_4_gate_artifacts/shield_research/public_trim_capture_v1.json": {
+    "bytes": 816262,
+    "sha256": "8b0fca047d4b7671621cbb5ebf7298476396252147070bb0deeb1df1cb72e751"
+  },
+  "reports/phase_4_gate_artifacts/shield_research/public_trim_capture_v1.py": {
+    "bytes": 9667,
+    "sha256": "ca1d25dfbd21d108499bd87d111b39398776d52b3595a4caa084c3f162eabcef"
+  },
+  "reports/phase_4_gate_artifacts/shield_research/public_trim_history_v1.json": {
+    "bytes": 810007,
+    "sha256": "f69440934a4f7416dfca9680c4f150db360cd487404b134e0d2fad57942e778f"
+  },
+  "reports/phase_4_gate_artifacts/shield_research/reanchoring_shield_v1.py": {
+    "bytes": 18176,
+    "sha256": "76640fc2e91eb4a1d33434dc69bf99798b3d28c623acb06d23ead356e6d1e0f8"
+  },
+  "reports/phase_4_gate_artifacts/shield_research/roundoff_enclosure_v1/conditional_budgets.json": {
+    "bytes": 256512,
+    "sha256": "65b7d3494df908106f3afa4ba0eb1105867120c1ad0a97e710b417836f7a768c"
+  },
+  "reports/phase_4_gate_artifacts/shield_research/roundoff_enclosure_v1/conditional_cpu_backend.py": {
+    "bytes": 10438,
+    "sha256": "dee12a4968682d2de983d4a6773d490121782f7a80f7ba86d47a3e460bd1275d"
+  },
+  "reports/phase_4_gate_artifacts/shield_research/roundoff_enclosure_v1/conditional_projective21_budget.json": {
+    "bytes": 2923,
+    "sha256": "bb8e785ef0bcad958288931ce9e1aa4ad0201f490d4db838ead149be9ed357b7"
+  },
+  "reports/phase_4_gate_artifacts/shield_research/roundoff_enclosure_v1/roundoff.py": {
+    "bytes": 14191,
+    "sha256": "db642d0d3d7f4869abae9fc4c1dde384073d3e30ca655bf6341d884344d9eed0"
+  },
+  "reports/phase_4_gate_artifacts/shield_research/taylor_remainder_v1/interval_taylor.py": {
+    "bytes": 12401,
+    "sha256": "954b0144b3debfe4359c64fd70c5acc5d0080c344d4a2ed7d3ff0549af575072"
+  },
+  "reports/phase_4_gate_artifacts/shield_research/terminal_reservation_v1/reservation.py": {
+    "bytes": 10456,
+    "sha256": "e5065ddf0b53c07878d13894ef42d843ff2bb58e9e083dadfe4398b9b3a71903"
+  },
+  "reports/phase_4_gate_artifacts/shield_research/trim_history_v2.py": {
+    "bytes": 7852,
+    "sha256": "9e29ac6dda10e51e327fe036449e30bb213e64844384a6d2538f0c1216106c97"
+  },
+  "reports/phase_4_gate_artifacts/shield_research/verified_backup_point_v1.py": {
+    "bytes": 6778,
+    "sha256": "96f2f4de11cf2d1414d47927ce996057daf5847a93a542719a12a102c1ef74b1"
+  },
+  "reports/phase_4_gate_artifacts/shield_research/verified_backup_point_v2.py": {
+    "bytes": 7035,
+    "sha256": "1b142116bca31baf35cb14ad37cdad25db5281e9dc2a59c7269e9e4b8617efc0"
+  },
+  "reports/phase_4_gate_artifacts/shield_research/verified_backup_point_v2_compatibility.json": {
+    "bytes": 1571,
+    "sha256": "2ab9e5c8e9ab070c45c095fb3cff2d29acba1cec891852c61854d9002fae7596"
+  },
+  "reports/phase_4_gate_artifacts/shield_research/verified_battery_v1.py": {
+    "bytes": 6770,
+    "sha256": "54f73713e94158d281ecea57b6d9765bc7a9bc98a6f6fcc2e0b8eb17301da795"
+  },
+  "reports/phase_4_gate_artifacts/shield_research/verified_decay_v1.py": {
+    "bytes": 5076,
+    "sha256": "84e50cf86d159fa86fd2cd8a1df2da7c9dd6d46a9eb519605b3e421007fbe895"
+  },
+  "reports/phase_4_gate_artifacts/shield_research/verified_norm_backend_v1/README.md": {
+    "bytes": 6218,
+    "sha256": "66a58336f55500384a4d9ea4a39cf7fa93836cb93d836a390b86301f05382533"
+  },
+  "reports/phase_4_gate_artifacts/shield_research/verified_norm_backend_v1/audit_fullbody.py": {
+    "bytes": 2587,
+    "sha256": "706891e4f1354c6ecf514bd07e50d5b76853dcede35572e0a1f186ea8d098479"
+  },
+  "reports/phase_4_gate_artifacts/shield_research/verified_norm_backend_v1/backend.py": {
+    "bytes": 9069,
+    "sha256": "980dc796585a3794d1513a5646bc5da40b7f2df78e93863b522c6ee297005de3"
+  },
+  "reports/phase_4_gate_artifacts/shield_research/verified_norm_backend_v1/budget_compatibility.json": {
+    "bytes": 2189,
+    "sha256": "55d43b5dadd9eb37f24bd9b1ac377764ab096880fc3d05d1a43bb131bf22db74"
+  },
+  "reports/phase_4_gate_artifacts/shield_research/verified_norm_backend_v1/compatibility.py": {
+    "bytes": 2513,
+    "sha256": "2c1e41965abfcffaf47ce4a9dbfa6148d8b2c35f9c240a7b5a5bb9170ead191b"
+  },
+  "reports/phase_4_gate_artifacts/shield_research/verified_norm_backend_v1/compatibility.stdout": {
+    "bytes": 2189,
+    "sha256": "55d43b5dadd9eb37f24bd9b1ac377764ab096880fc3d05d1a43bb131bf22db74"
+  },
+  "reports/phase_4_gate_artifacts/shield_research/verified_norm_backend_v1/fullbody_audit.json": {
+    "bytes": 936,
+    "sha256": "bc01e269b2340eaeb2b45d5d70245cd1ae81c8615356ffa4a88701053c0c2296"
+  },
+  "reports/phase_4_gate_artifacts/shield_research/verified_norm_backend_v1/fullbody_audit.stdout": {
+    "bytes": 936,
+    "sha256": "bc01e269b2340eaeb2b45d5d70245cd1ae81c8615356ffa4a88701053c0c2296"
+  },
+  "reports/phase_4_gate_artifacts/shield_research/verified_norm_backend_v1/manifest.json": {
+    "bytes": 1582,
+    "sha256": "aadaa70f13f4e740018f57bfb1c42cb5717802b92923ecf91e7d65468cadb15a"
+  },
+  "reports/phase_4_gate_artifacts/shield_research/verified_norm_backend_v1/test_verified_norm.py": {
+    "bytes": 4208,
+    "sha256": "891bc3dad51cb6acbbcca5708b2c013c37ae3f8354f644751a0d94dfffeda253"
+  },
+  "reports/phase_4_gate_artifacts/shield_research/verified_norm_backend_v1/tests.log": {
+    "bytes": 1162,
+    "sha256": "322555779c40db56a5abdc368d275eceac21a09280291db443c36ab497e9b75a"
+  },
+  "reports/phase_4_gate_artifacts/shield_research/verified_norm_backend_v1/verified_sqrt.py": {
+    "bytes": 2020,
+    "sha256": "322aa4e29c7c0dbe9205df3cf1f0ee778e0819a97fea1f08708b476b4780cec6"
+  },
+  "reports/phase_4_gate_artifacts/shield_research/zero_rate_history_v1.py": {
+    "bytes": 8879,
+    "sha256": "9ac73b4012e24d55c38bb7fcf7fa8d443b53bc1c91bd3e0496d9f062916df212"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/README.md": {
+    "bytes": 5488,
+    "sha256": "b6ca30cabccdcb2bcba96f32ecefde8f97c263a81354d49ca843e0f87ea1041a"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/bundle_sha256.json": {
+    "bytes": 18779,
+    "sha256": "79179befba3d39218cee7acac3af9edde82a3c3e070b2f994cb1cc0c4aace973"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/certificate.json": {
+    "bytes": 21513,
+    "sha256": "7a90aad6cf0cdc9f92148be849f8bbf6d18609bf768aa5dc84970da4609407af"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/cpu_arithmetic_guard_v1.py": {
+    "bytes": 6204,
+    "sha256": "9e54b0f6e330624ede9c2bd38bd8fa6f6888776427edc97579cad27d4a3a0e8c"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/export_audit.json": {
+    "bytes": 79868,
+    "sha256": "d4b595583b969ccfb5e375bbca0759e3206208bc662eaede57221f6a08d7ed0b"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/export_coefficients.py": {
+    "bytes": 9377,
+    "sha256": "433f6c085420861f790e51562723e0514b73041277bda94d343243299a6bf45a"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/backup_Bernstein_embedding_feasibility.json": {
+    "bytes": 3903,
+    "sha256": "4143dacf63985bd4f49d28a6d5f7b277c550229a2c6e37d4d00a8e234508c1f8"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/backup_bernstein_embedding.py": {
+    "bytes": 8076,
+    "sha256": "e337233c92e1ad98bbe1ba96c2e30898fb6ff35e32fb5359bd5db664931b850e"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/backup_common_P_feasibility.json": {
+    "bytes": 6301,
+    "sha256": "00aff35340746d20cf23af9b0ba80289e66482afe7aa277103bc746ef614551a"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/backup_conditional_CPU_fixed_RPI_candidate_v2.json": {
+    "bytes": 9991,
+    "sha256": "063c1149718bddee5fcd94df55ffa90bf650084645cb99fe61e90f69fff358ec"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/backup_linear_noise_RPI_feasibility.json": {
+    "bytes": 16622,
+    "sha256": "432fe671c822d52e9a21e5196c9c236dde0dabf330d633cd504db7bac5cc2348"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/backup_local_exact_power_coefficients.json": {
+    "bytes": 1579342,
+    "sha256": "5fd9b542f5da56bff70f04b32ac1d0d904dc81d5712163bd0437b1a8c8480e7d"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/backup_quantized_exact_oriented_remainder_audit.json": {
+    "bytes": 27469,
+    "sha256": "963b71ae1760d5a0c5341dd82f68f968baafbd28ecfdc3aa8186e4abcc75dd17"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/conditional_projective21_budget.json": {
+    "bytes": 2923,
+    "sha256": "bb8e785ef0bcad958288931ce9e1aa4ad0201f490d4db838ead149be9ed357b7"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/dependency_sha256.json": {
+    "bytes": 1341,
+    "sha256": "eac1a7102623f5d2f1092afd3cab495e600d8b9e0995224131f184f0a6247bca"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/intermediate_position_v1.json": {
+    "bytes": 45454,
+    "sha256": "f4c8d46e8d4afd6f24c0b1f5e181f18841ac1d110a605adb2d4d6f17070ec09e"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/intermediate_position_v1.md": {
+    "bytes": 5041,
+    "sha256": "8042c5070bb5b8acff1ea4b7a2c4871b5d527540913ce0fce59a722cee625f26"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/intermediate_position_v1.py": {
+    "bytes": 8363,
+    "sha256": "79ac86865aa0d6d288563b0d2642cf7b17d6ffa7bf1054b6d0bfca01d4e0dd4b"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/intermediate_position_v1_manifest.json": {
+    "bytes": 1462,
+    "sha256": "004bbf95e4064ed58490e29504e5862565625f52c45f39ea24762a0066f7f527"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/quaternion_algebra_exact.json": {
+    "bytes": 552,
+    "sha256": "fcc9b7e7e90c79d96653cac5ab0742ae50be40ecac98da74c12ba20175bd3bbe"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/quaternion_algebra_exact.py": {
+    "bytes": 2235,
+    "sha256": "3ca0c53e47e0a764fb316a0961ee1adc4b0fc4f60a16807b474b2dada4a9a254"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/roundoff_enclosure_v1/README.md": {
+    "bytes": 9024,
+    "sha256": "b66e117ae66b899ced8eda88484f7ab5d268bed2e33ef5d73ec8abc555ddd965"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/roundoff_enclosure_v1/all_tests.log": {
+    "bytes": 1891,
+    "sha256": "077af5f3adba311c6aa5c91f83510d9bc74802885715334d51055685fb2b9dc6"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/roundoff_enclosure_v1/audit_cpu.py": {
+    "bytes": 5945,
+    "sha256": "5dd400389a56e49ead9d89883520521fb3c5dc55f233008c3b88a8544b02d6a6"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/roundoff_enclosure_v1/backend_tests.log": {
+    "bytes": 928,
+    "sha256": "112a7af8de2227a2bfaa809e686d701ef722a3c96241ce675e7e2e217350b4dc"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/roundoff_enclosure_v1/conditional_budgets.json": {
+    "bytes": 256512,
+    "sha256": "65b7d3494df908106f3afa4ba0eb1105867120c1ad0a97e710b417836f7a768c"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/roundoff_enclosure_v1/conditional_cpu_backend.py": {
+    "bytes": 10438,
+    "sha256": "dee12a4968682d2de983d4a6773d490121782f7a80f7ba86d47a3e460bd1275d"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/roundoff_enclosure_v1/conditional_projective21_budget.json": {
+    "bytes": 2923,
+    "sha256": "bb8e785ef0bcad958288931ce9e1aa4ad0201f490d4db838ead149be9ed357b7"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/roundoff_enclosure_v1/finite_audit.stdout": {
+    "bytes": 1204,
+    "sha256": "68d7060b4feaba9223458111ac218b666887346a3fdc6726e6e6ae06fa23eae2"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/roundoff_enclosure_v1/finite_cpu_audit.json": {
+    "bytes": 4548,
+    "sha256": "7743cc2b782e60942ac2b0dc2588f21dc95eba22589d7b8e9019d379126856d9"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/roundoff_enclosure_v1/manifest.json": {
+    "bytes": 2588,
+    "sha256": "c5aafb92328454855db4881f787d6459458ff48e65f74b4adec2a4044abfdbf0"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/roundoff_enclosure_v1/publish.stdout": {
+    "bytes": 232,
+    "sha256": "5eab61741d08d1e8b4d55891bb2ff74ca82d506938519bf38a0226b27512c791"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/roundoff_enclosure_v1/publish_budget.py": {
+    "bytes": 2655,
+    "sha256": "8f80db1f605713cf80dbcd855b187d5dcc20e3694aff8f3a9b78e93d90f21f98"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/roundoff_enclosure_v1/roundoff.py": {
+    "bytes": 14191,
+    "sha256": "db642d0d3d7f4869abae9fc4c1dde384073d3e30ca655bf6341d884344d9eed0"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/roundoff_enclosure_v1/run.stdout": {
+    "bytes": 4450,
+    "sha256": "73bb55ba49d7913cdee4af90f768af5b5fd314212ac057d756387ff6c6e4ffd4"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/roundoff_enclosure_v1/run_roundoff.py": {
+    "bytes": 7861,
+    "sha256": "3da3bd6bccbcc7d11a52fc691127bb596f32bab2f3625213b76e2a79882476fd"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/roundoff_enclosure_v1/sources/LinearAlgebra.cpp": {
+    "bytes": 142993,
+    "sha256": "07ca5aee3897f5516764ef8dab03a015eb9a6826ec2f26be997aca4f6e35e4ec"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/roundoff_enclosure_v1/sources/PowKernel.cpp": {
+    "bytes": 5258,
+    "sha256": "df8f16ecab4b7848483020c50efe5fe0750eb2acb7042fbe2d262136f10b763c"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/roundoff_enclosure_v1/sources/ReduceOpsKernel.cpp": {
+    "bytes": 20804,
+    "sha256": "4b85f8c711278cea2066f2a3418fd804cb4072fecfb2c3f3ce549a2c37e2b271"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/roundoff_enclosure_v1/sources/SharedReduceOps.h": {
+    "bytes": 16670,
+    "sha256": "b8e0a3a5eccade1a77ac9001ddb53f7f12ed69c43fb721849f9e8cd4097448de"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/roundoff_enclosure_v1/sources/index.json": {
+    "bytes": 1817,
+    "sha256": "7bf7b43c38007155306ac675e92b4bddc0c367ef1df42f4952cd48bb8bbf5f07"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/roundoff_enclosure_v1/sources/vec512_float.h": {
+    "bytes": 30118,
+    "sha256": "ae677ba7d7b00f50c8ee0f84fd089012aeb23304c509df24ba12cc01fad97b2f"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/roundoff_enclosure_v1/test_backend.py": {
+    "bytes": 3100,
+    "sha256": "a2624f19fd617a9327175859599200ceff375dbe9823a784724d32b0790e2304"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/roundoff_enclosure_v1/test_roundoff.py": {
+    "bytes": 4604,
+    "sha256": "9283b9bc1549de95ef6a4358eb780e4ca0b47f79628a6012ba6974a112ac7e6f"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/roundoff_enclosure_v1/tests.log": {
+    "bytes": 888,
+    "sha256": "013789b9eb7d6e9efeb1ec59f91ea74ebdfd03ab1bc8dd6c1fee0ded1e431edc"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/sector_exact_generator_polynomials.json": {
+    "bytes": 1415401,
+    "sha256": "ba9934d9cd1e34a874b94950f861a7dd97544737ca2f3b03995b8c7ccaa0e8d3"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/sector_flow_v1/audit_sector_family.py": {
+    "bytes": 4651,
+    "sha256": "eee7f7d33f0ac3cdd96e5a4b0df297cf073745dd883dfa88c56052080bc2f21d"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/sector_flow_v1/run_sector_flow.py": {
+    "bytes": 4099,
+    "sha256": "8a73d99d7995969b9bd55572ed4e246e26b4548792fcfa442a345189def8b1a4"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/sector_flow_v1/run_sector_quantized_flow.py": {
+    "bytes": 4155,
+    "sha256": "fbb250977ff1385cb04d9436c8f6c2e1dfa0dcb7367efd8b910677ccf3287d8c"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/sector_flow_v1/sector_exact_generator_polynomials.json": {
+    "bytes": 1415401,
+    "sha256": "ba9934d9cd1e34a874b94950f861a7dd97544737ca2f3b03995b8c7ccaa0e8d3"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/sector_flow_v1/sector_family_coding_audit.json": {
+    "bytes": 3646,
+    "sha256": "8efaaba8cecb0ca5d8a1bec624a330b86e29269324197dfc4c33a9a2121ca90c"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/sector_flow_v1/sector_flow.py": {
+    "bytes": 5228,
+    "sha256": "ae499a2af1559b5eb4d198be8571fa1d88b4e9c24a29223eeab3fec4e3aa934b"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/sector_flow_v1/sector_generator_construction.json": {
+    "bytes": 670,
+    "sha256": "7ea5f343eb74fbd91cf05dbebb4e44fcf86c89aada9bb1f2877ec439d1f1a9ae"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/sector_flow_v1/sector_inflated_flow_bounds.json": {
+    "bytes": 24297,
+    "sha256": "9c7c534153a896d95266058f99dcb75b8131e666f6bb0895b0eaa67ba62ea486"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/sector_flow_v1/sector_inflated_flow_derivative_intervals.npz": {
+    "bytes": 35180,
+    "sha256": "3436b0b9b93637a100fe3920d249edf14f36e673bf90952287ffe1936b6bf678"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/sector_flow_v1/sector_planar_generator_candidates.npz": {
+    "bytes": 3046890,
+    "sha256": "b95ddaba5daa604c92a09eba3010f69f0ef42ce3a9c4eadf171ee19060c2091d"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/sector_flow_v1/sector_quantized_flow_bounds.json": {
+    "bytes": 24399,
+    "sha256": "69a8ee7fd66b993b1b432941c50216b7cdb59727c6d3991bda230c12923cfb01"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/sector_flow_v1/sector_quantized_flow_derivative_intervals.npz": {
+    "bytes": 35206,
+    "sha256": "f74feb31530c45504d3a9386348d3d7a87c10ce241a451d32654f9fdcd85f495"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/sector_generator_construction.json": {
+    "bytes": 670,
+    "sha256": "7ea5f343eb74fbd91cf05dbebb4e44fcf86c89aada9bb1f2877ec439d1f1a9ae"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/README.md": {
+    "bytes": 13200,
+    "sha256": "434c3b7e6f9b98af18412a276feffc31ce25134698789293e9929e474fe4b9d5"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/audit.stdout": {
+    "bytes": 4576,
+    "sha256": "a61076cdb1d2dc5ab820be72c63ae2254c632dbceaa2dd8b1e2383ead67eb9c0"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/audit_flow.py": {
+    "bytes": 4580,
+    "sha256": "f106e523b1de8d0be857d5572b42f049a3e76a37c65d8b137be05594549c3387"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/audit_increment_flow.py": {
+    "bytes": 4639,
+    "sha256": "6e4f8f718c85d199e65827e78cc06fa5a60516cbc2a8910ee905a65fbc57dbc0"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/audit_inflated_flow.py": {
+    "bytes": 4628,
+    "sha256": "ed583b5f094b12a0ec4ea006a10b2fc3d383d37c51f3d161082bf39deaf2690f"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/audit_narrow_flow.py": {
+    "bytes": 4601,
+    "sha256": "1078dba0f4c229bd1cc5c8a884cb3e93f404ee195e33b03cae1858cade9a482f"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/audit_structured_taylor.py": {
+    "bytes": 5669,
+    "sha256": "c44c1841d2bf1b7074eae3bddca034454c68a352b15618468440ec6d8461ad26"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/audit_taylor.py": {
+    "bytes": 5620,
+    "sha256": "e7b205ec08ffdaa581f4ed9c5f910d8245c78913590ef2b489f9358f798301b4"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/autograd_audit.json": {
+    "bytes": 7022,
+    "sha256": "69aec74036d986d578b916da3e8b161e9b1635773020a258e7dc84532daa7eb9"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/controller_split.py": {
+    "bytes": 3025,
+    "sha256": "f1c2d210e1dc62e0112cff15d0f4823fe31b94855d9e9e6300322e0b3b1745ae"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/controller_split.stdout": {
+    "bytes": 448,
+    "sha256": "6d6f53c6fb9504a05d5d67cf35fce3e4994ba597ecef68162d08c3ff8e53da28"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/controller_split_bounds.json": {
+    "bytes": 19725,
+    "sha256": "726fd976f9ea594931e629871e12697f9f88faf5a6d1b4dfc1d75b17363a8822"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/controller_split_signed_intervals.npz": {
+    "bytes": 8310,
+    "sha256": "2700a586448ef42b1552d1d846bd66596750382ac058cad601fc2ea56ec82884"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/flow_audit.stdout": {
+    "bytes": 3990,
+    "sha256": "1bb91e6ef77a42100cdab56347cd5812ade7934598eaad378643f74bbea207ea"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/increment_inflated_flow.stdout": {
+    "bytes": 334,
+    "sha256": "7464c47883cd6a3449dcf1a7d173f1f4c996c82d802669074fe1b6fbded64255"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/increment_inflated_flow_audit.json": {
+    "bytes": 5909,
+    "sha256": "df35a9177c448215a9a2d9a109e5c45ed8bdb0933defe2d1bc91571ef05b3457"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/increment_inflated_flow_audit.stdout": {
+    "bytes": 3987,
+    "sha256": "0002f67b4817c2f8ef48a25ee78cdf2c9e591e384c63b5d50ac6fddc2669202a"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/increment_inflated_flow_bounds.json": {
+    "bytes": 24312,
+    "sha256": "9848cf470c5df3d7507a47f499cc9b967fb1cd9d04ff71938bc9a923fc972762"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/increment_inflated_flow_derivative_intervals.npz": {
+    "bytes": 39551,
+    "sha256": "760a305959c20466cba22774e0a8d90f593e80086621b0d81731a712e50939e1"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/inflated_controller.stdout": {
+    "bytes": 181,
+    "sha256": "b0c6e9277a132b35d06230b5aae71b3bd80d65992109de6c7bae4a7b591894dc"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/inflated_narrow_flow.stdout": {
+    "bytes": 334,
+    "sha256": "7ff409826f35cee0414e0184ee5de078c26b1b5de75dcdb7bae562e6e0c9cd8d"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/inflated_narrow_flow_audit.stdout": {
+    "bytes": 3986,
+    "sha256": "8960fc3e94695ee9f48bd87cb5b2cb250abcf4c89b1cbe8dda48b174813aea47"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/inflated_narrow_joint_flow_audit.json": {
+    "bytes": 5902,
+    "sha256": "de5b16a28070d3c4a15f7b5cdae26eea05e52d245810a926ebf820befb3771ac"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/inflated_narrow_joint_flow_bounds.json": {
+    "bytes": 21763,
+    "sha256": "edeeaf0fc1df0ec51b09915bf16f24eb18061b453911e65bab53a45f1c05e3b0"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/inflated_narrow_joint_flow_derivative_intervals.npz": {
+    "bytes": 50582,
+    "sha256": "d31cd07529e98e5385352c6f8c495c137ea55127b2f5032c54cb3511c2d74978"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/inflated_structured_noise_Q_signed_derivative_intervals.npz": {
+    "bytes": 69718,
+    "sha256": "207917e2d80317ac92b90b006237bc063bbe06ca0973ce7b50127be7352a2c19"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/inflated_structured_noise_Q_taylor_bounds.json": {
+    "bytes": 11003,
+    "sha256": "2aafe51bd9a21029a708ef00e54a5bd80794b7ecee3b02e6359439060aaa3d58"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/interval_flow.py": {
+    "bytes": 3990,
+    "sha256": "85da37ce9da89f86b0612b9d181006bf54c2b537c2320473f66774f453358224"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/interval_flow_increment.py": {
+    "bytes": 4860,
+    "sha256": "ec7d5140066cf55b10b6ea1f955383e1c1ba7f7b705fb6086a187ff4b066e965"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/interval_taylor.py": {
+    "bytes": 12401,
+    "sha256": "954b0144b3debfe4359c64fd70c5acc5d0080c344d4a2ed7d3ff0549af575072"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/interval_taylor_original.py": {
+    "bytes": 11475,
+    "sha256": "6219c05d95cebe81f9a3714baa9dbfc833a374c303ff3e8eae9988359062ab1d"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/joint_flow_audit.json": {
+    "bytes": 5890,
+    "sha256": "392a319ab9b7fcf8fc0599290bc45cb55925870c9c3b2cebf9227a51d23f6ae7"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/joint_flow_bounds.json": {
+    "bytes": 21557,
+    "sha256": "8399c260f1ec6a3ee16f405304a0e04a94834599c1e7ca63f9731845f90c712d"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/joint_flow_derivative_intervals.npz": {
+    "bytes": 50575,
+    "sha256": "545efd52c2863d755721f6ebeb0692f5207d0a6cebfd23942855e309b06e791d"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/manifest.json": {
+    "bytes": 12122,
+    "sha256": "032d1bfa53b6ee5ee048b686888a51ee80ba6da483b4801ffaf682406a1affcf"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/narrow_flow.stdout": {
+    "bytes": 324,
+    "sha256": "f8ee3a8440a133a387808d74f679106bae448116fb64d531b46d37187f371a9f"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/narrow_flow_audit.stdout": {
+    "bytes": 3973,
+    "sha256": "2c1653eb68e20b06cf79ca0cc874e5a87944b03d410de2b90eaa6fcf93166551"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/narrow_joint_flow_audit.json": {
+    "bytes": 5880,
+    "sha256": "1a8ff81b548b6f0bd57b8cb1ebb52cb605958d28393aab873d67d00d045e9bd0"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/narrow_joint_flow_bounds.json": {
+    "bytes": 21625,
+    "sha256": "5b90da89bd300415f078cc719b7a242289e0af47ad70f71d1fb2a38a79fa5125"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/narrow_joint_flow_derivative_intervals.npz": {
+    "bytes": 50583,
+    "sha256": "be74589777177e6a2ecf14fec972b0bfd7746428a1a60f29f61df43ffd0ccf7b"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/noise_Q.stdout": {
+    "bytes": 182,
+    "sha256": "7d9aacb3ece4a910e0f6e3d8e04ea53a4fc81539bbcc5e48f3a9990ba5f42bed"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/noise_Q_signed_derivative_intervals.npz": {
+    "bytes": 70905,
+    "sha256": "204edbf719fd6b9a9b3d0a744e38648ba898fe66cab74871b8921658179768fe"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/noise_Q_taylor_bounds.json": {
+    "bytes": 10620,
+    "sha256": "d32b073f8e9e4c30bf02898f5a09f59a06289fe635d511b384ad3c5f1b3d3915"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/projection.stdout": {
+    "bytes": 1437,
+    "sha256": "62f9df7accf1da5b9e7621707f2e5fd47a6d62de9609ad24563330ecf8a62ba8"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/projection_audit.json": {
+    "bytes": 2047,
+    "sha256": "8c7385a12fbae3d66937f101ed95a28f38926de3abe7efacb8e0f6c2849f8890"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/projection_audit.py": {
+    "bytes": 3443,
+    "sha256": "1898a29d9cd65f1ab0112ad1b1c3516787dd845d415cc8238d18d19b7a48bee3"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/run_flow.py": {
+    "bytes": 3478,
+    "sha256": "597f9c19aaf362fbc9d354d1ee9be7dfd9322d3a8178037f4ba6646ae38e480b"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/run_increment_flow.py": {
+    "bytes": 3724,
+    "sha256": "0fb0019a47cd78bd43b7dfc7fd2c06f87828010349345005a3bb49dce487a91c"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/run_inflated_narrow_flow.py": {
+    "bytes": 3663,
+    "sha256": "397a5f4da389bbbe3b67a33e033ad038269ab8b9c894d7dc9980a4503ba4cee8"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/run_inflated_q_domain.py": {
+    "bytes": 2712,
+    "sha256": "8c2575491024cdc435d67acf8b361de45e3e93f52cb8cf8b5763c5a50ea4f14a"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/run_narrow_flow.py": {
+    "bytes": 3599,
+    "sha256": "349236631360abdad9232138a55bf29bc570621725ada8c081147b8cdb992ddc"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/run_noise_q_domain.py": {
+    "bytes": 2484,
+    "sha256": "e6328093d4e6cb3ce1b54a011a09cde8a7249c4ca14586e23a2a679843736ad5"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/run_structured_noise_q_domain.py": {
+    "bytes": 2589,
+    "sha256": "f1807f829c4249d12b9704b503fbaeb0468dcbbc9da2a3819b8072966189672d"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/run_structured_taylor.py": {
+    "bytes": 4259,
+    "sha256": "0fc538ff50f0adb051c591b3cb6f79ba0200344f58da3733480591f330b2ab8f"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/run_taylor.py": {
+    "bytes": 4143,
+    "sha256": "dce7da42c1691d93cea826b46eee6d66c1ea8b322103fc00149b3633b9e9c3d2"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/signed_derivative_intervals.npz": {
+    "bytes": 212904,
+    "sha256": "867e55a0835ea1563a29d8797a36bb8bcbc27966a23abe60776a2af04dbf550f"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/source_command_domain_audit.json": {
+    "bytes": 2464,
+    "sha256": "7b382cd9d136156d4a3a718a5e34e67120959eb056fde47cfaf0912781d38476"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/source_common_P_direct_audit.json": {
+    "bytes": 6701,
+    "sha256": "a63637224179fc81dde16f83d6e4fc71312160097c096c61b3f2939392f53c27"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/source_inflated_command_domain_audit.json": {
+    "bytes": 2762,
+    "sha256": "663a60e6e526f2a0d9e0461817e299c63b7549f7226d7d96b4f4f8519d24127d"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/source_linear_noise_Q_candidate.json": {
+    "bytes": 16622,
+    "sha256": "432fe671c822d52e9a21e5196c9c236dde0dabf330d633cd504db7bac5cc2348"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/structured_audit.stdout": {
+    "bytes": 4578,
+    "sha256": "e346dec3ff114fcaf598a86f207331287bfd23c334e38886e9d9d8cadb42c2bb"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/structured_autograd_audit.json": {
+    "bytes": 7024,
+    "sha256": "04434de5fa84d971c49467aac620e993186b058c7afcf80aa9d36a20bc64162d"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/structured_noise_Q.stdout": {
+    "bytes": 182,
+    "sha256": "9f8b25908ee46301a9d5324161ddc55abcbc9601061356189dfea5a0a641bc39"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/structured_noise_Q_signed_derivative_intervals.npz": {
+    "bytes": 69774,
+    "sha256": "66c966a3d385b1c63d9a1d0e579987bac2343a97817e5ca6882de813ee860170"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/structured_noise_Q_taylor_bounds.json": {
+    "bytes": 10935,
+    "sha256": "3ba4d31ac91a2c9cd7541156ab4383fa4d0b1793238a631f1078c6aa58ef6269"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/structured_signed_derivative_intervals.npz": {
+    "bytes": 208944,
+    "sha256": "dbdbde60d92650e8637944bbffc1c54dfc1f68e0e64b1a430dbb920de818af62"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/structured_taylor.stdout": {
+    "bytes": 665,
+    "sha256": "b5b3eb657e343c921bf1129a3a70d844eda4073391e5227fb7f79785e99d25df"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/structured_taylor_bounds.json": {
+    "bytes": 2544005,
+    "sha256": "04d185ac232e0868db828d15ae2e961e687f6194995fefe52ac2232689db4d2a"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/taylor.stdout": {
+    "bytes": 665,
+    "sha256": "a949c8a9a0b50548cefd0d58479ba2a7ae724055227da3ff863b7bf1426cba94"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/taylor_bounds.json": {
+    "bytes": 2563425,
+    "sha256": "a2744160f988135037b48f8f2c588c53a5339e86c117f5d13e9c9e1c2ce097ed"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/test_interval_taylor.py": {
+    "bytes": 3885,
+    "sha256": "dad4fee0325dfc3e9ac38e573170afca110acdd03d69ccc299f9de51b661a537"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/taylor_remainder_v1/tests.log": {
+    "bytes": 1294,
+    "sha256": "6733910f9b7367402360546b4196e696994f8eeadcfceab988a41d90b59a2769"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/test_freeze.json": {
+    "bytes": 5640,
+    "sha256": "544eef04eb3e455445fe21db46fdc2d5de0a0fd9e87a6004bc417e8f20dca42d"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/test_intermediate_position_v1.py": {
+    "bytes": 1988,
+    "sha256": "06b3f7d14e9318b6d1c9150fcba92601f838a0b5bd7aad92012bcd79b573e680"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/verified_backup_point_v1.json": {
+    "bytes": 242,
+    "sha256": "0c6893b1955a65e854ca21624fb042fb6aae5f9689436e44c40d8e401f0354ca"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/verified_backup_point_v1.py": {
+    "bytes": 6778,
+    "sha256": "96f2f4de11cf2d1414d47927ce996057daf5847a93a542719a12a102c1ef74b1"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/verified_battery_v1.json": {
+    "bytes": 1621,
+    "sha256": "0717130ee371f2412180060894425093cf7e7ba9490d41bdc466983a0185622a"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/verified_battery_v1.py": {
+    "bytes": 6770,
+    "sha256": "54f73713e94158d281ecea57b6d9765bc7a9bc98a6f6fcc2e0b8eb17301da795"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/inputs/verified_decay_v1.py": {
+    "bytes": 5076,
+    "sha256": "84e50cf86d159fa86fd2cd8a1df2da7c9dd6d46a9eb519605b3e421007fbe895"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/interval_lmi_audit_v1.py": {
+    "bytes": 11421,
+    "sha256": "1e5352a8e1c8db0c113d839d46851e2cf3644595f28aee5d7d89d31837e2eacd"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/planar_x_independent_LMI_audit.json": {
+    "bytes": 1526,
+    "sha256": "837f655e1e29e638aaf813a180603e1a93c95d5e5d4de1f9a278ed79c9a2aeb4"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/planar_x_interval_coefficients.json": {
+    "bytes": 46064,
+    "sha256": "0f573101650e6779e98bb9b5c1bfa4eed8d2533edf181cbdcb8f5bc001b795b7"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/planar_x_interval_coefficients.npz": {
+    "bytes": 5526522,
+    "sha256": "26c3097f2fea954db7371a46c510defea7cfe9e131281b6c8b9b9b75879aeff9"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/replay_exact_remainder.py": {
+    "bytes": 6239,
+    "sha256": "1721994a71dfeae3574c653daf1cea24dc113b760be27fbc7f322874bb789d58"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/replay_sector_construction.py": {
+    "bytes": 4460,
+    "sha256": "34232a48f7a510aeec85c27262edd70be887d88f10680b17fba5ade0861f99d2"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/replayed_exact_oriented_remainder_audit.json": {
+    "bytes": 27468,
+    "sha256": "4e2ee48f5ed925af5bb18d3010efa7a81d375feb7fd6e33a093aee300c7afb5e"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/replayed_sector/sector_exact_generator_polynomials.json": {
+    "bytes": 1415401,
+    "sha256": "ba9934d9cd1e34a874b94950f861a7dd97544737ca2f3b03995b8c7ccaa0e8d3"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/replayed_sector/sector_generator_construction.json": {
+    "bytes": 671,
+    "sha256": "ef7e4242cdbed89aeb0da6bf1c4d120a40d51e23f36ce22bb962c0c61f589378"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/replayed_sector/sector_planar_generator_candidates.npz": {
+    "bytes": 3046890,
+    "sha256": "b95ddaba5daa604c92a09eba3010f69f0ef42ce3a9c4eadf171ee19060c2091d"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/test_interval_lmi_audit_v1.json": {
+    "bytes": 162,
+    "sha256": "dab2805d9ae2f1b229ecdd0e5dd2c2c1837817139ea472700eea7bad0478a967"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/test_interval_lmi_audit_v1.py": {
+    "bytes": 5828,
+    "sha256": "e981e85817357f6d70883271ac164f815ed2342a2d89a5dbb385b0b7ab38f6dd"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/vertical_independent_LMI_audit.json": {
+    "bytes": 1525,
+    "sha256": "04c484da98bb7a689b2b8799efb1ef0579695d18665882c58975fe2a91145ae7"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/vertical_interval_coefficients.json": {
+    "bytes": 25316,
+    "sha256": "a9ef443d01f1bc29c958542a4e61cdfe68b1a29f94021cc5ef733dd03d1356b4"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/vertical_interval_coefficients.npz": {
+    "bytes": 101146,
+    "sha256": "0fc8452bc9f4dc9ce457146684680616ca9a79c389b758ab3ab86124e88c555c"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/yaw_independent_LMI_audit.json": {
+    "bytes": 1523,
+    "sha256": "39cfaad7caca36cc73aca4a5a39e5061d73a0ccbdfec1f8ed6259a4d537e0835"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/yaw_interval_coefficients.json": {
+    "bytes": 6787,
+    "sha256": "259e7bce85ca13db0a6b0616d20c596e81995cf51ec8600940d22f7819ad6c27"
+  },
+  "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/yaw_interval_coefficients.npz": {
+    "bytes": 6186,
+    "sha256": "72ffe7994a89f6fdfc66867b982e758e38ac7f19bb76c89a6413d4ae895b599b"
+  }
+}

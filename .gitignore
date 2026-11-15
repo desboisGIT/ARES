@@ -5,4 +5,10 @@ __pycache__/
 build/
 dist/
 reports/*.json
-reports/*_artifacts/
+# Retain research source while keeping generated trial/build output local.
+reports/*_artifacts/**
+!reports/*_artifacts/**/
+!reports/*_artifacts/**/*.py
+!reports/*_artifacts/**/*.md
+recordings/
+logs/

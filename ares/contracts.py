@@ -273,41 +273,54 @@ _POSITIVE = {"mass_kg", "max_thrust_n", "motor_lag_s", "battery_energy_j", "dept
 _NONNEGATIVE = {"linear_drag", "depth_noise_std_m", "imu_accel_noise_std", "imu_gyro_noise_std",
                 "odometry_drift_per_m", "compute_latency_s"}
 _PIXELS = {"depth_width", "depth_height"}
+_V2_POSITIVE = {"gravity_mps2", "depth_min_range_m", "depth_edge_threshold_m", "imu_rate_hz", "optical_flow_rate_hz"}
+_V2_NONNEGATIVE = {"depth_noise_quadratic_per_m2", "depth_edge_width_px", "max_range_dropout_probability",
+                   "optical_flow_noise_std_mps", "range_noise_std_m"}
 
 
 def validate_profile(profile) -> None:
     _object(profile, {"schema_version", "profile_id", "units", "parameters"}, "profile")
-    if profile["schema_version"] != "ares.profile.v1":
-        _fail("schema_version", "expected 'ares.profile.v1'")
+    if profile["schema_version"] not in ("ares.profile.v1", "ares.profile.v2"):
+        _fail("schema_version", "expected 'ares.profile.v1' or 'ares.profile.v2'")
+    v2 = profile["schema_version"] == "ares.profile.v2"
     if profile["units"] != "SI":
         _fail("units", "expected 'SI'")
     _string(profile["profile_id"], "profile_id")
     params = profile["parameters"]
-    _object(params, _POSITIVE | _NONNEGATIVE | {"inertia_kg_m2"}, "parameters")
+    extra = _V2_POSITIVE | _V2_NONNEGATIVE | {"material_hole_probability"} if v2 else set()
+    _object(params, _POSITIVE | _NONNEGATIVE | {"inertia_kg_m2"} | extra, "parameters")
     for name, param in params.items():
         path = f"parameters.{name}"
         _object(param, {"nominal", "range"}, path)
-        vector = name == "inertia_kg_m2"
+        vector = name in ("inertia_kg_m2", "material_hole_probability")
         if vector:
-            nominal = _vector(param["nominal"], 3, f"{path}.nominal")
-            ranges = _list(param["range"], f"{path}.range", 3)
+            size = 3 if name == "inertia_kg_m2" else 5
+            nominal = _vector(param["nominal"], size, f"{path}.nominal")
+            ranges = _list(param["range"], f"{path}.range", size)
         else:
             nominal, ranges = [param["nominal"]], [param["range"]]
         for i, (value, bounds) in enumerate(zip(nominal, ranges)):
-            low, high = _vector(bounds, 2, f"{path}.range" + (f"[{i}]" if vector else ""), name in _PIXELS)
-            _number(value, f"{path}.nominal", name in _PIXELS)
+            integer = name in _PIXELS or name == "depth_edge_width_px"
+            low, high = _vector(bounds, 2, f"{path}.range" + (f"[{i}]" if vector else ""), integer)
+            _number(value, f"{path}.nominal", integer)
             if low > high:
                 _fail(f"{path}.range", "lower bound exceeds upper bound")
             if not low <= value <= high:
                 _fail(f"{path}.nominal", "outside randomization range")
-            if (vector or name in _POSITIVE) and low <= 0:
+            if (name == "inertia_kg_m2" or name in _POSITIVE | _V2_POSITIVE) and low <= 0:
                 _fail(f"{path}.range", "values must be positive")
-            if name in _NONNEGATIVE and low < 0:
+            if name in _NONNEGATIVE | _V2_NONNEGATIVE and low < 0:
                 _fail(f"{path}.range", "values must be nonnegative")
+            if name in ("material_hole_probability", "max_range_dropout_probability") and not 0 <= low <= high <= 1:
+                _fail(f"{path}.range", "probabilities must lie in [0,1]")
+            if name == "depth_edge_width_px" and high > 32:
+                _fail(f"{path}.range", "edge width must stay in [0,32]")
             if name.endswith("fov_rad") and high >= math.pi:
                 _fail(f"{path}.range", "field of view must be below pi radians")
-        if vector:
+        if name == "inertia_kg_m2":
             if any(nominal[i] > sum(nominal) - nominal[i] for i in range(3)):
                 _fail(path, "inertia violates triangle inequalities")
             if any(ranges[i][1] > sum(ranges[j][0] for j in range(3) if j != i) for i in range(3)):
                 _fail(path, "randomized inertia can violate triangle inequalities")
+    if v2 and params["depth_min_range_m"]["range"][1] >= params["depth_max_range_m"]["range"][0]:
+        _fail("parameters.depth_min_range_m", "minimum range must stay below maximum range")

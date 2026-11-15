@@ -1,0 +1,134 @@
+{
+  "scope": "128finite CPU eager fullbody original-Float32 vsFloat64 one-H implementation comparisons, verified-decay backend. No samples define or fit analytic error budgets; no global binary audit.",
+  "samples": 128,
+  "full_body_steps": 128,
+  "H_s": 0.01,
+  "all_21_error_components_below_conditional_ceiling": true,
+  "maximum_observed_21_error": [
+    1.873270070618105e-06,
+    1.0065822113602962e-06,
+    1.5348601216658153e-06,
+    9.71663437210335e-09,
+    9.717262036690322e-09,
+    2.0501548528284452e-08,
+    1.4893931660903137e-09,
+    2.427921658859633e-09,
+    2.7483588907299683e-10,
+    3.065816486791384e-08,
+    3.890526635574876e-08,
+    5.77435711746066e-09,
+    7.464085927111341e-07,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "ceiling_21": [
+    5e-06,
+    5e-06,
+    5e-06,
+    6.5e-08,
+    6.5e-08,
+    5.3e-07,
+    1.2e-07,
+    1.2e-07,
+    1.7e-08,
+    1e-06,
+    1e-06,
+    2e-07,
+    7e-06,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "max_positive_excess": 0.0,
+  "all_input_output_quaternion_shells_passed_exact": true,
+  "cpu_guard": {
+    "schema_version": "ares.cpu_arithmetic_guard.v1",
+    "cpu_preconditions_met": true,
+    "full_program_arithmetic_proved": false,
+    "flight_certificate": false,
+    "host": {
+      "machine": "x86_64",
+      "platform": "Linux-7.0.0-43-generic-x86_64-with-glibc2.43"
+    },
+    "c_source": "#include <xmmintrin.h>\n#include <fenv.h>\nunsigned int guard_read_mxcsr(void) { return _mm_getcsr(); }\nint guard_read_round(void) { return fegetround(); }\nint guard_nearest_constant(void) { return FE_TONEAREST; }\n",
+    "c_source_sha256": "766177525c3fb33ed8caec5bb1a3380a9fa36d3cc1746c9c9621dd3996f0d98d",
+    "mask_unit_cases": {
+      "passed": true,
+      "case_count": 7,
+      "scope": "synthetic flag masks; no control register writes"
+    },
+    "execution": {
+      "device": "cpu",
+      "eager_only": true,
+      "cuda_used": false,
+      "torch_compile_used": false,
+      "mxcsr_modified": false,
+      "environment_flags_modified": false
+    },
+    "helper": {
+      "compiler": "/usr/bin/cc",
+      "command": [
+        "/usr/bin/cc",
+        "-shared",
+        "-fPIC",
+        "-O2",
+        "-msse2",
+        "/tmp/ares-cpu-arithmetic-guard-esuk0eo2/guard.c",
+        "-lm",
+        "-o",
+        "/tmp/ares-cpu-arithmetic-guard-esuk0eo2/guard.so"
+      ],
+      "compiler_version": "cc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+      "source_path": "/tmp/ares-cpu-arithmetic-guard-esuk0eo2/guard.c",
+      "library_path": "/tmp/ares-cpu-arithmetic-guard-esuk0eo2/guard.so",
+      "compile_stderr": "",
+      "library_sha256": "ce30192c2e50e8dde8b19a3ef49aee31c69b3650f0d9b7acc510eba32292f840"
+    },
+    "torch": {
+      "version": "2.11.0+cu130",
+      "git_version": "70d99e998b4955e0049d13a98d77ae1b14db1f45",
+      "cpu_capability": "AVX512",
+      "default_dtype": "torch.float32",
+      "probe_dtype": "torch.float32",
+      "num_threads": 1,
+      "matmul_precision": "highest"
+    },
+    "control_state": {
+      "mxcsr": 8096,
+      "mxcsr_hex": "0x1fa0",
+      "fegetround": 0,
+      "FE_TONEAREST": 0
+    },
+    "checks": {
+      "mxcsr_round_nearest_even": true,
+      "mxcsr_daz_disabled": true,
+      "mxcsr_ftz_disabled": true,
+      "fegetround_nearest": true,
+      "torch_explicit_cpu_float32": true,
+      "torch_default_float32": true,
+      "torch_matmul_highest": true,
+      "torch_single_thread": true
+    },
+    "scope_limit": "Current standalone worker thread only; not an audit of every backend/library thread, all compiler transformations, transcendental error bounds, or the full program. Caller computations must remain CPU/eager/Float32 and preserve these controls."
+  },
+  "platform_primitive_contract_audited": false,
+  "flight_certificate": false,
+  "source_sha256": {
+    "reports/phase_4_gate_artifacts/shield_research/roundoff_enclosure_v1/conditional_projective21_budget.json": "bb8e785ef0bcad958288931ce9e1aa4ad0201f490d4db838ead149be9ed357b7",
+    "reports/phase_4_gate_artifacts/shield_research/verified_decay_v1.py": "84e50cf86d159fa86fd2cd8a1df2da7c9dd6d46a9eb519605b3e421007fbe895",
+    "reports/phase_4_gate_artifacts/shield_research/cpu_arithmetic_guard_v1.py": "9e54b0f6e330624ede9c2bd38bd8fa6f6888776427edc97579cad27d4a3a0e8c",
+    "ares/vendor/diffaero/quadrotor.py": "e67588b41bd9121ca5931d6f3bdf2858256ca5459f6503c1e1eefc2cbce274ef",
+    "ares/vendor/diffaero/math.py": "c12e37d8eeecd0ffb994711bebe0d253cdf47645397b0dfb63d5f92324b44cf7"
+  }
+}

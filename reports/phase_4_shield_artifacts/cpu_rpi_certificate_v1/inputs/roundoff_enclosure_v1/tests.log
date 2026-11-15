@@ -1,0 +1,11 @@
+test_basic_operations_cover_exact_software_binary32 (__main__.RoundoffTests.test_basic_operations_cover_exact_software_binary32) ... ok
+test_gamma6_dot_encloses_reassociation_and_fma (__main__.RoundoffTests.test_gamma6_dot_encloses_reassociation_and_fma) ... ok
+test_half_ulp_sqrt_and_casts_enclose_reference (__main__.RoundoffTests.test_half_ulp_sqrt_and_casts_enclose_reference) ... ok
+test_invalid_numeric_domains_fail_closed (__main__.RoundoffTests.test_invalid_numeric_domains_fail_closed) ... ok
+test_motor_refinement_preserves_original_three_op_error (__main__.RoundoffTests.test_motor_refinement_preserves_original_three_op_error) ... ok
+test_norm_shell_rational_derivation_has_margin_below_8u (__main__.RoundoffTests.test_norm_shell_rational_derivation_has_margin_below_8u) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.097s
+
+OK

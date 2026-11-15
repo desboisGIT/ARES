@@ -1,4 +1,4 @@
-name: Phase 0
+name: Foundations, Worlds, Sensors and Exploration
 
 on:
   push:
@@ -19,12 +19,63 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
       - name: Install build tools
-        run: python -m pip install 'setuptools>=68' wheel
+        run: python -m pip install 'setuptools>=68' wheel '.[simulation]'
+      # make build includes the bounded Phase 3 CPU smoke, not the full GPU gate.
       - name: Validate, test, benchmark, and build
         run: make build PYTHON=python
       - uses: actions/upload-artifact@v4
         with:
-          name: phase0-python-${{ matrix.python-version }}
+          name: phase3-python-${{ matrix.python-version }}
           path: |
             reports/*.json
             dist/*.whl
+
+  full-corpus:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Generate and check full Phase 1 corpus
+        run: python -m ares phase1 --count 10000 --workers 4 --output reports/phase_1.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: phase1-full-corpus-python-3.12
+          path: |
+            reports/*.json
+            reports/phase_1_artifacts/
+
+  optional-flight:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install optional flight stack with CPU PyTorch
+        run: |
+          python -m pip install 'setuptools>=68' wheel
+          python -m pip install torch==2.11.0 --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install '.[flight]'
+      - name: Test optional flight stack
+        run: python -m unittest discover -s tests -v
+      - name: Validate bounded CPU flight controller
+        run: python -m ares control-check --device cpu --count 8 --duration 4 --settle 2 --output reports/control_smoke.json
+      - name: Run bounded Phase 4 CPU smoke
+        run: python -m ares phase4 --device cpu --train-updates 1 --batch-size 2 --rollout-steps 4 --episodes 2 --max-steps 10 --smoke --output reports/phase_4_repair_smoke.json
+      - name: Run verified conditional backup CPU smoke
+        run: python -m ares.verified_safety smoke --output reports/phase_4_verified_safety_smoke.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: phase4-cpu-python-3.12
+          path: |
+            reports/control_smoke.json
+            reports/phase_4_repair_smoke.json
+            reports/phase_4_repair_smoke_artifacts/
+            reports/phase_4_artifacts/
+            reports/phase_4_verified_safety_smoke.json*

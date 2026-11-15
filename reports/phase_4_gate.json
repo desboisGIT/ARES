@@ -1,0 +1,390 @@
+{
+  "schema_version": "ares.phase4_gates.v1",
+  "learned_waypoint_gate": {
+    "passed": true,
+    "runs": 1000,
+    "successes": 1000,
+    "success_rate": 1.0,
+    "required": 0.99,
+    "split": "test",
+    "fixed_before_generation": true,
+    "conditional_binomial_95percent_interval": [
+      0.9963179161031344,
+      1.0
+    ],
+    "interval_scope": "Independent Bernoulli task approximation, not a guarantee over unseen layouts or continuous profile combinations."
+  },
+  "shield_gate": {
+    "passed": false,
+    "status": "Conditional CPU backup mathematics, bounded-service component and bounded-GC adversarial timing pass; complete learned-command waypoint missions, fresh integrated validation and portable integrated verification remain open.",
+    "positive_motion_certificates_enabled": false,
+    "conditional_bounded_SIL_positive_certificates_enabled": true,
+    "default_Gaussian_runtime_certified": false,
+    "adversarial_GC_retest": {
+      "path": "reports/phase_4_gate_artifacts/shield_research/adversarial_gc_v2/attempt_002/derived_summary_v1.json",
+      "sha256": "49c3fb679916f50361a0f5ec5325d40d6cfdefe18034e63c7698eb580bf0aa2a",
+      "derived_original_criteria_passed": true,
+      "steps": 3000,
+      "control_calls_over10ms": 0,
+      "max_control_s": 0.003831876994809136,
+      "raw_wrapper_comparator_false_flags_preserved": true,
+      "separate_readonly_serialization_equivalence_audit": true
+    }
+  },
+  "onboard_gate": {
+    "passed": false,
+    "status": "Deferred at user request until actual hardware exists.",
+    "required_ms": 5
+  },
+  "nonhardware_ready": false,
+  "phase_passed": false,
+  "fresh_test": {
+    "start_seed": 80000,
+    "episodes": 1000,
+    "batch_size": 64,
+    "max_steps": 600,
+    "split": "test",
+    "dataset_sha256": "9f502fe69698e76662a7f07868364aeb500de64815f2b27c567a1231cc2e0371",
+    "now_sealed": true
+  },
+  "results": {
+    "bptt": {
+      "certified_commands": 0,
+      "clearance_note": "Continuous sphere/voxel sweeps; positive distances outside the local query cap are flagged lower bounds per run.",
+      "collisions": 0,
+      "max_speed_mps": 1.4558279514312744,
+      "median_peak_speed_mps": 1.0085328221321106,
+      "median_time_s": 3.9499999999999997,
+      "minimum_clearance_m": 0.015451446175575256,
+      "p90_time_s": 4.851666666666667,
+      "runs": 1000,
+      "shield_checks": 0,
+      "shield_interventions": 0,
+      "speed_limit_exceeding_runs": 0,
+      "success_rate": 1.0,
+      "successes": 1000,
+      "time_population": "successful runs only; failures stay in success-rate denominator",
+      "timeouts": 0
+    },
+    "ppo": {
+      "certified_commands": 0,
+      "clearance_note": "Continuous sphere/voxel sweeps; positive distances outside the local query cap are flagged lower bounds per run.",
+      "collisions": 6,
+      "max_speed_mps": 1.524299144744873,
+      "median_peak_speed_mps": 1.0509183406829834,
+      "median_time_s": 3.6,
+      "minimum_clearance_m": -0.00219862163066864,
+      "p90_time_s": 4.516666666666667,
+      "runs": 1000,
+      "shield_checks": 0,
+      "shield_interventions": 0,
+      "speed_limit_exceeding_runs": 5,
+      "success_rate": 0.994,
+      "successes": 994,
+      "time_population": "successful runs only; failures stay in success-rate denominator",
+      "timeouts": 0
+    },
+    "reference": {
+      "certified_commands": 0,
+      "clearance_note": "Continuous sphere/voxel sweeps; positive distances outside the local query cap are flagged lower bounds per run.",
+      "collisions": 0,
+      "max_speed_mps": 1.4542874097824097,
+      "median_peak_speed_mps": 1.015834391117096,
+      "median_time_s": 3.8666666666666667,
+      "minimum_clearance_m": 0.01412595808506012,
+      "p90_time_s": 4.666666666666667,
+      "runs": 1000,
+      "shield_checks": 0,
+      "shield_interventions": 0,
+      "speed_limit_exceeding_runs": 0,
+      "success_rate": 1.0,
+      "successes": 1000,
+      "time_population": "successful runs only; failures stay in success-rate denominator",
+      "timeouts": 0
+    }
+  },
+  "profile_mode_summaries": {
+    "bptt": {
+      "high": {
+        "runs": 64,
+        "successes": 64
+      },
+      "low": {
+        "runs": 64,
+        "successes": 64
+      },
+      "random": {
+        "runs": 872,
+        "successes": 872
+      }
+    },
+    "ppo": {
+      "high": {
+        "runs": 64,
+        "successes": 61
+      },
+      "low": {
+        "runs": 64,
+        "successes": 64
+      },
+      "random": {
+        "runs": 872,
+        "successes": 869
+      }
+    },
+    "reference": {
+      "high": {
+        "runs": 64,
+        "successes": 64
+      },
+      "low": {
+        "runs": 64,
+        "successes": 64
+      },
+      "random": {
+        "runs": 872,
+        "successes": 872
+      }
+    }
+  },
+  "checkpoints": {
+    "bptt": {
+      "path": "reports/phase_4_regularized_validation_artifacts/runs/d2d4d5edce1f4a149d0659685826666a/bptt.pt",
+      "sha256": "e535060b0b1f6586cb6deeaafd59b87016028c3d412257934cec2ce9ef41063f"
+    },
+    "ppo": {
+      "path": "reports/phase_4_regularized_validation_artifacts/runs/d2d4d5edce1f4a149d0659685826666a/ppo.pt",
+      "sha256": "fce3cb0c66ee0b95751f1f4007c8b0eb466526617543f47959b95e60b89c1008"
+    },
+    "reference": {
+      "path": "reports/phase_4_gate_artifacts/reference.pt",
+      "sha256": "6dc0f67a343a1808714c28ba6a93456a7ef958cbde56f519881f9494ef348f86"
+    }
+  },
+  "frozen_flight_runtime_source_sha256": {
+    "__init__.py": "342790ae2ea28f38357bdc245dd8b44356aa05284d5b47dc5a2511981981472b",
+    "__main__.py": "6a170fc866c867a1e5812daad308396f0940a23f2ecf55e56be39d5d67d23f10",
+    "attacks.py": "b5f66edf47d30d20395e5fd63820267ec4e6caccf11d34ea2ce2d21ead821989",
+    "benchmark.py": "68ca95c609a73a950384a53559fdeaab39892c7eeb6ac15692fdff6d70749f91",
+    "calibration.py": "31e45e00fff9765b6250924e5c11cf3452172d821ff2b853c116fee06bdadaf7",
+    "cli.py": "3d0fdacf2882578cd702293042fa32c21ecfd8b184338e2acee3c99f6068e9e6",
+    "contracts.py": "69262ac865bc3b635a648b06271a3c9cffcfc0a69755b17a77fdd379320df9f4",
+    "control_validation.py": "049e81cbb388a087654c5b964ef886371c729e78fa5861797cc58b40b3cdb975",
+    "depth.py": "71657288c9c8ccd716931bd311b1f8efc7a3250f7d70d8584f8e4220dd84ec88",
+    "depth_comparison.py": "635f7bd97459ca6a1dd48fbd609cb00644db9c17597ade4a78ae12efe1a0bf51",
+    "diffaero_adapter.py": "6be710f2806daadefe431f9fe379d41bcb534a8cb9964353eae74526103e76ec",
+    "evaluator.py": "4696af26c68f1079a57d5f23a508a8ff0c363f2323c2614b78f526bd5b86f5b9",
+    "exploration.py": "8ddea82cd2971492daee617959b0894280cbcc37e86f29331eda47fdcdffbfca",
+    "exploration_scoring.py": "def52c594e9cf26bc0a20e90ca68664167d111e92cf0a5b312070645ce70f05c",
+    "fast_world.py": "609473faa1a757a293342f24e841cc985c144e376bd3832539bcdaa2f98e7ee4",
+    "flight_collision.py": "958a99c382b830006a1829c03a23105cd099d501c7e146ec181ef3e670916ce9",
+    "flight_control.py": "e57b358bd0cbf2716f2dd9fcdf0a293664b7a4904a33a2e615105dd5b2d5fc52",
+    "flight_env.py": "f1539fe327eacbfe0a04320011492692137b92d7b113ee924ea9b55be78f19a3",
+    "flight_guidance.py": "5b61f3a699ef86f014cf12f0f9cd5bf0a812cd38f8c343e01a7879f1876a1c9d",
+    "flight_log.py": "64ab3bd86a004b9fd8c5f5a191b7c50d52ea0d3097b6da3c03901e62e2e663eb",
+    "flight_policy.py": "f276b318c04e6d4b2663bb81d7cca9aa8beb63001e265b636fc67332e19af7c0",
+    "flight_randomization.py": "451f1649f9f1eadc3a5cb9ea9d8c9d77a5732b98fde85ac61bd917d8e0a9af17",
+    "flight_sensors.py": "4c45c7563ab4e0eaf834740af24424e147c3720c65e0dcf50058f622fb9d8b03",
+    "flight_training.py": "3bccb8d84601b59b5ba1e4c902b4c9322794007baf057413347cfc68181f2581",
+    "gallery.py": "a6f6a5f5526a48797650644fd9f685901739f4dfaea425a7c54fded15cfd1da4",
+    "geometry.py": "186a35fea21fa3faa1fdec77b7dbf2dfb484dc95554c919a4e1ae9ea135810c4",
+    "human_benchmark.py": "9c08781131d66f0d7b12333c17f652c1e0abf0615fe112a01a367fb1f60446e2",
+    "importer.py": "7067ba2c6043519d9d5c44d759e8ebb5bd280005b85653f5a46665c096948c36",
+    "mapping.py": "8ec5fa0950b14910409daba8a37c180ab35485d54f61a623ff65039bc52a83e7",
+    "odometry.py": "45b581784c2615bfec262f295f697ca9aa03485df84b787cf63fa6624dbeb9e6",
+    "phase1.py": "d744122961ca10b67b5f0e53fb58319986bc0ebdc82fa34a35548e7bcd7b4cee",
+    "phase2.py": "d462d61d765429281e2df11624f9d42be86dc02b01a3b22069e8480d3de4a10a",
+    "phase3.py": "d71c96c1b0300837be85ca165c33489174f35b812940e1a8147dfca253f66c3a",
+    "phase4.py": "dfab4c6078f699a5bc975f80ee5ce9c2c24f06268a33f3b1a11f076f91c5e1a3",
+    "randomness.py": "127135a0c3f50c77105c0b0a48db97a63c44ff2cf695874d202b362867e2330d",
+    "rate_probe.py": "373abe5d1c2d3079fdd7b4c53186dc24e28a41cb5b100b1fcbfeab6da8205f9e",
+    "recording.py": "2c487a4aee1b41e2cb5a703f82137d04daa7707514216e5ad28100b7e9d465b6",
+    "replay.py": "add15a55ec7fff7032bd9fe83e1ddecd9e3c88fc8ebdb3a565bcabae23925f85",
+    "reporting.py": "8cd209ab8d28cfe4c034a42703171f8c138ef1d018d6f4f9f1e3f7cf8e670e25",
+    "reward.py": "46c87b1f00083118ede1c087c1235fe89679e86b0c0ae893274b9b9466583469",
+    "safety.py": "4a6abc3fda721136ab6c9a623060357b53d7de7902fcb72733a4e079134c51d9",
+    "scoring.py": "33bf8e4a95fe52a83233d01181cf55657259e8180732c41db735a07e80a6206a",
+    "sensors.py": "bab410d7030b1c36b50d2d0a995a00d1d77018e282ef4e5fb989ae39cadc8435",
+    "sessions.py": "aaf046b832d7ab8cf09f99e1cfe0fd22ef5ca267e6e0d203391554d91f2be286",
+    "vendor/__init__.py": "88783104b1a56979f31a778747ecb797d983c0270ed7b47bafbc471f215be0a8",
+    "vendor/diffaero/__init__.py": "1153660c167d7ac99c815520e208f026cbec9449eed77d27d6f0af255b087ede",
+    "vendor/diffaero/controller.py": "53ba647182d68306626c50314c3843b4883df95098451c70823fec82d3b4fa63",
+    "vendor/diffaero/math.py": "c12e37d8eeecd0ffb994711bebe0d253cdf47645397b0dfb63d5f92324b44cf7",
+    "vendor/diffaero/quadrotor.py": "e67588b41bd9121ca5931d6f3bdf2858256ca5459f6503c1e1eefc2cbce274ef",
+    "viewer.py": "99e9da130434b7f9d4fcb1fb9757e24854e857465cc474d2793d1c41cea59787",
+    "worldgen.py": "c3a646c13c14c353ef1b46c463d120adbf01f6c8487c397e4485aae653ba8749"
+  },
+  "frozen_flight_wheel": "phase_4_gate_artifacts/frozen_flight_runtime/ares-0.6.0-py3-none-any.whl",
+  "frozen_flight_wheel_sha256": "9e7850db055ab1cbea454a45e1cd0662571b09eb3d5cccf52d436b8557e6042e",
+  "training": {
+    "bptt": {
+      "training_steps": 409600,
+      "optimizer_updates": 50,
+      "config": {
+        "clip_ratio": 0.2,
+        "entropy_coefficient": 0.001,
+        "epochs": 4,
+        "gae_lambda": 0.95,
+        "gamma": 0.99,
+        "learning_rate": 0.0003,
+        "max_grad_norm": 1.0,
+        "minibatch_size": 256,
+        "residual_penalty": 1.0,
+        "rollout_steps": 128,
+        "seed": 1741,
+        "steps": 50,
+        "value_coefficient": 0.5
+      },
+      "elapsed_s": 256.9094527240013,
+      "maximum_cnn_gradient_norm": 0.001758807455189526
+    },
+    "ppo": {
+      "training_steps": 409600,
+      "optimizer_updates": 6400,
+      "config": {
+        "clip_ratio": 0.2,
+        "entropy_coefficient": 0.001,
+        "epochs": 4,
+        "gae_lambda": 0.95,
+        "gamma": 0.99,
+        "learning_rate": 0.0003,
+        "max_grad_norm": 1.0,
+        "minibatch_size": 256,
+        "residual_penalty": 1.0,
+        "rollout_steps": 128,
+        "seed": 1741,
+        "steps": 50,
+        "value_coefficient": 0.5
+      },
+      "elapsed_s": 163.117114253997,
+      "maximum_cnn_gradient_norm": 0.31430309056304395
+    }
+  },
+  "validation_reports": [
+    "phase_4_regularized_validation.json",
+    "phase_4_regularized_generalization_validation.json",
+    "phase_4_regularized_seed1742_validation.json"
+  ],
+  "tests": {
+    "passed": 358,
+    "elapsed_s": 79.164,
+    "log": "reports/phase_4_verified_safety_artifacts/full_suite_revision02.log",
+    "source_manifest": "reports/phase_4_verified_safety_artifacts/full_suite_revision02_sources.json",
+    "scope": "Current55-source package including seven verified-safety resource/CLI protocol tests",
+    "sources_stable": true
+  },
+  "desktop_inference": {
+    "bptt": {
+      "device": "cuda",
+      "host": "current_desktop_not_onboard",
+      "median_ms": 0.9273110008507501,
+      "onboard_gate_passed": false,
+      "p90_ms": 0.9392869011207949,
+      "p99_ms": 0.9819902970775731,
+      "samples": 100,
+      "scope": "Single sample; depth encoder, state network and nominal geometric action conversion; sensor, estimator, shield and runtime scheduling excluded."
+    },
+    "ppo": {
+      "device": "cuda",
+      "host": "current_desktop_not_onboard",
+      "median_ms": 0.937233999138698,
+      "onboard_gate_passed": false,
+      "p90_ms": 0.9526359957817476,
+      "p99_ms": 0.960631486523198,
+      "samples": 100,
+      "scope": "Single sample; depth encoder, state network and nominal geometric action conversion; sensor, estimator, shield and runtime scheduling excluded."
+    }
+  },
+  "packaging_report": "phase_4_gate_packaging.json",
+  "limitations": [
+    "Hybrid geometric/adaptive controller plus learned residual; zero-residual reference also passes, so no learned superiority is claimed.",
+    "All reported successes are finite randomized simulation tasks, not aircraft guarantees.",
+    "Held-out cohort80000\u201380015 consumed; further NN changes require validation and another fresh cohort.",
+    "Positive conditional bounded-service CPU backup SIL does not certify default Gaussian inputs or establish learned-command mission completion.",
+    "Adversarial timing retains a 12.128 ms miss; finite component timings are not universal or onboard latency bounds."
+  ],
+  "shield_evidence": {
+    "conditional_backup_math": {
+      "path": "reports/phase_4_shield_artifacts/cpu_rpi_certificate_v1/certificate.json",
+      "sha256": "7a90aad6cf0cdc9f92148be849f8bbf6d18609bf768aa5dc84970da4609407af",
+      "conditional_endpoint_RPI_lemmas_closed": true,
+      "flight_certificate": false
+    },
+    "component_retry_003": {
+      "path": "reports/phase_4_gate_artifacts/shield_research/coupled_reanchoring_v1/retry_003/summary.json",
+      "sha256": "f67f1daa464edaa3a4522e2b402c6ee6cc4df0f0cf8ab4b9c10aed4530535b7d",
+      "completed_steps": 8000,
+      "positive_conditional_decisions": 8000,
+      "anchor_accepts": 6181,
+      "cached_fallbacks": 1819,
+      "membership_collision_unknown_queue_misses": 0,
+      "guard_mean_ms": 2.303530970209977,
+      "guard_max_ms": 4.271205005352385,
+      "goal_progress_m": [
+        0.19090427689873998,
+        0.29689547929163423
+      ],
+      "measured_component_passed": true
+    },
+    "adversarial": {
+      "path": "reports/phase_4_gate_artifacts/shield_research/adversarial_reanchoring_v1/summary.json",
+      "sha256": "da6b4039e747e34c4b60b7b68e78818a11f06631916a6084f58fda58ebd2eccd",
+      "completed_steps": 3000,
+      "functional_passed": true,
+      "timing_passed": false,
+      "reserve_refusals_per_scenario": 139,
+      "minimum_clearance_m": 0.15860258042812347,
+      "retained_max_timing_miss_ms": 12.128,
+      "preflight_bad_inputs_refused": 15,
+      "applied_bad_commands": 0
+    },
+    "learned_command_bridge": {
+      "path": "reports/phase_4_gate_artifacts/shield_research/learned_command_bridge_v1/development_summary.json",
+      "sha256": "dc1c0327be2238d3c1ac7dae989b27090a8d67423d54b3cdfd61e6ac8c237675",
+      "physical_steps": 3000,
+      "policy_frames": 1800,
+      "full_mission_successes": 0,
+      "full_missions": 3,
+      "horizon_s": 10,
+      "first_waypoint_reached_profiles": [
+        "low",
+        "random_interior"
+      ],
+      "physical_command_interventions": 3000,
+      "original_Gaussian_observations_retained": true,
+      "additional_bounded_SIL_monitor": true,
+      "remaining_work": [
+        "Public trim/energy/service-lease renewal with proof",
+        "Additional observed-map ray witnesses for second waypoint",
+        "Full learned-command cluttered mission completion"
+      ]
+    },
+    "portable_component": {
+      "path": "reports/phase_4_verified_safety_artifacts/outside_checkout_packaging.json",
+      "sha256": "f84bc0c388f7ecdb829e693f377af21869a2945a5fe0d9b72621f75eda6c981a",
+      "documentation": "docs/verified_safety_sil.md",
+      "wheel_sha256": "e90870979baacf781d4955c47595cb6ef3e032ec153ae9da25d544642eee76d1",
+      "outside_checkout_CuPy_blocked_steps": 20,
+      "passed": true,
+      "hardware_deployment_claim": false
+    }
+  },
+  "current_test_evidence": {
+    "prior_full_suite_passed": 351,
+    "new_verified_safety_focused_tests_passed": 7,
+    "full_357_suite_run": true,
+    "frozen_51_flight_suite_passed": 344,
+    "full_358_suite_run": true,
+    "full_358_suite_elapsed_s": 79.164
+  },
+  "frozen_flight_runtime_tests": {
+    "passed": 344,
+    "log": "reports/phase_4_gate_artifacts/verification/unit_tests.log"
+  },
+  "previous_package_test_evidence": {
+    "passed": 357,
+    "elapsed_s": 79.157,
+    "log": "reports/phase_4_verified_safety_artifacts/full_suite.log",
+    "scope": "Current55-source package and six new resource/CLI protocol tests"
+  }
+}

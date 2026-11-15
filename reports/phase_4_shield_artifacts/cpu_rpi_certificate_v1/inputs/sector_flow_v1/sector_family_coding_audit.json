@@ -1,0 +1,105 @@
+{
+  "status": "FINITE_CODING_AUDIT_ONLY",
+  "actual_membership_value_checked": true,
+  "sector_derivatives_hold_stage_geff_constant": "This family derivative intentionally differs from the actual state-dependent plant Jacobian; the proof is set containment, not derivative equality.",
+  "cases": [
+    {
+      "case": 0,
+      "branch": 0,
+      "stage_geff": [
+        9.461649678350257,
+        9.554517061951369,
+        9.635792118046169,
+        9.706921878432075,
+        9.769172746726214
+      ],
+      "actual_vendor_value_vs_containing_sector_family_max_error": 6.938893903907228e-18,
+      "sector_point_interval_value_excess": 4.119968255444917e-16,
+      "sector_point_J_excess": 1.4823076576950256e-21,
+      "sector_point_selected_H_excess": 7.15573433840433e-18,
+      "sector_global_box_remainder_excess": 6.938893903907228e-16
+    },
+    {
+      "case": 1,
+      "branch": 1,
+      "stage_geff": [
+        10.070921551474072,
+        10.044097790622887,
+        10.018582240053986,
+        9.994311097597636,
+        9.971223672752709
+      ],
+      "actual_vendor_value_vs_containing_sector_family_max_error": 0.0,
+      "sector_point_interval_value_excess": 2.3592239273284576e-16,
+      "sector_point_J_excess": 6.3527471044072525e-21,
+      "sector_point_selected_H_excess": 1.0256635931518617e-17,
+      "sector_global_box_remainder_excess": 4.163336342344337e-16
+    },
+    {
+      "case": 2,
+      "branch": 0,
+      "stage_geff": [
+        9.420386536729076,
+        9.493438140997869,
+        9.557370955776666,
+        9.613323249315632,
+        9.66229120361426
+      ],
+      "actual_vendor_value_vs_containing_sector_family_max_error": 0.0,
+      "sector_point_interval_value_excess": 6.418476861114186e-17,
+      "sector_point_J_excess": 5.929230630780102e-21,
+      "sector_point_selected_H_excess": 3.0983009372684213e-18,
+      "sector_global_box_remainder_excess": 3.0531133177191805e-16
+    },
+    {
+      "case": 3,
+      "branch": 1,
+      "stage_geff": [
+        10.220437226686258,
+        10.199774319368814,
+        10.180119153954696,
+        10.161422582290252,
+        10.143637853205624
+      ],
+      "actual_vendor_value_vs_containing_sector_family_max_error": 0.0,
+      "sector_point_interval_value_excess": 4.163336342344337e-17,
+      "sector_point_J_excess": 2.541098841762901e-21,
+      "sector_point_selected_H_excess": 2.3852447794681098e-18,
+      "sector_global_box_remainder_excess": 1.3877787807814457e-16
+    },
+    {
+      "case": 4,
+      "branch": 0,
+      "stage_geff": [
+        10.174055252495485,
+        10.120283543205392,
+        10.073223978055617,
+        10.032038702353512,
+        9.995994448029023
+      ],
+      "actual_vendor_value_vs_containing_sector_family_max_error": 0.0,
+      "sector_point_interval_value_excess": 1.249000902703301e-16,
+      "sector_point_J_excess": 6.268043809681823e-20,
+      "sector_point_selected_H_excess": 4.339819627371711e-19,
+      "sector_global_box_remainder_excess": 2.0816681711721685e-16
+    },
+    {
+      "case": 5,
+      "branch": 1,
+      "stage_geff": [
+        10.025097113278909,
+        10.010892879855994,
+        9.997381395086741,
+        9.9845288732199,
+        9.972303176254783
+      ],
+      "actual_vendor_value_vs_containing_sector_family_max_error": 1.3877787807814457e-17,
+      "sector_point_interval_value_excess": 1.3877787807814457e-16,
+      "sector_point_J_excess": 5.929230630780102e-21,
+      "sector_point_selected_H_excess": 6.915759316535345e-18,
+      "sector_global_box_remainder_excess": 3.608224830031759e-16
+    }
+  ],
+  "all_six_within_1e_minus9": true,
+  "elapsed_s": 5.697387068001262
+}
