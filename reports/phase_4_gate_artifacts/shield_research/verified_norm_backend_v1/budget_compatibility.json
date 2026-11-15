@@ -1,0 +1,44 @@
+{
+  "schema_version": "ares.explicit_norm_budget_compatibility.v1",
+  "norm_sum_DAGs": [
+    {
+      "width": 3,
+      "product_operations": 3,
+      "left_associated_additions": 2,
+      "prior_gamma_index": 6,
+      "operation_count_covered": true,
+      "absolute_underflow_allowance_covered": true
+    },
+    {
+      "width": 4,
+      "product_operations": 4,
+      "left_associated_additions": 3,
+      "prior_gamma_index": 8,
+      "operation_count_covered": true,
+      "absolute_underflow_allowance_covered": true
+    }
+  ],
+  "sqrt_contract": "For each runtime word x>=0, squared exact rounding-bin boundaries prove RN-even(sqrt(x)). Thus .5ULP error required by prior bound is discharged pointwise, including bin ties and subnormals.",
+  "initial_and_output_projective_alignment_unchanged": true,
+  "prior_norm_shell": "1/2097152",
+  "norm_shell_still_valid": true,
+  "prior_per_H_21D_vector_unchanged": true,
+  "prior_intermediate_position_arithmetic_padding_unchanged": true,
+  "full_REAL13D_RK4_rate_controller_equations_unchanged": true,
+  "motor_verified_decay_backend_unchanged": true,
+  "native_norm_or_sqrt_error_assumption_removed": true,
+  "remaining_contracts": [
+    "IEEE binary32 fullprecision RNE basic operations and tensor/scalar conversions",
+    "matching frozen original program and stated explicit norm DAG; eager CPU, no oneDNN/autocast/compile",
+    "tiny3dot and shortsum counts as already covered; no reduced precision",
+    "guarded external domains and unchanged source/code; no concurrent arithmetic-mode change"
+  ],
+  "flight_certificate": false,
+  "source_sha256": {
+    "roundoff_enclosure_v1/conditional_projective21_budget.json": "bb8e785ef0bcad958288931ce9e1aa4ad0201f490d4db838ead149be9ed357b7",
+    "roundoff_enclosure_v1/roundoff.py": "db642d0d3d7f4869abae9fc4c1dde384073d3e30ca655bf6341d884344d9eed0",
+    "intermediate_position_v1.json": "828c83642acbd801caba2cb551972d7a0503bdd2277c56f27bc82b761159bbef",
+    "verified_norm_backend_v1/verified_sqrt.py": "322aa4e29c7c0dbe9205df3cf1f0ee778e0819a97fea1f08708b476b4780cec6",
+    "verified_norm_backend_v1/backend.py": "980dc796585a3794d1513a5646bc5da40b7f2df78e93863b522c6ee297005de3"
+  }
+}

@@ -24,4 +24,4 @@ include = ["ares", "ares.*"]
 
 [tool.setuptools.package-data]
 ares = ["data/*.json", "data/**/*.json", "data/**/*.html", "vendor/**/*.txt", "vendor/**/LICENSE", "vendor/**/UPSTREAM.md"]
-"ares.verified_safety" = ["*.zip", "*.json"]
+"ares.verified_safety" = ["*.zip", "*.json", "*.txt"]

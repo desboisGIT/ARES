@@ -1,0 +1,12 @@
+test_bad_candidate_cannot_bypass_exact_bin_and_worker_latches (test_verified_norm.VerifiedNormTests.test_bad_candidate_cannot_bypass_exact_bin_and_worker_latches) ... ok
+test_guarded_step_reset_use_no_opaque_norm_or_sqrt (test_verified_norm.VerifiedNormTests.test_guarded_step_reset_use_no_opaque_norm_or_sqrt) ... ok
+test_invalid_sqrt_and_norm_inputs_fail (test_verified_norm.VerifiedNormTests.test_invalid_sqrt_and_norm_inputs_fail) ... ok
+test_new_path_guard_rejects_changed_model_step (test_verified_norm.VerifiedNormTests.test_new_path_guard_rejects_changed_model_step) ... ok
+test_norm_exact_error_gamma_contract_on_all_associations (test_verified_norm.VerifiedNormTests.test_norm_exact_error_gamma_contract_on_all_associations) ... ok
+test_squared_bin_midpoint_ties_choose_even_including_zero_subnormals (test_verified_norm.VerifiedNormTests.test_squared_bin_midpoint_ties_choose_even_including_zero_subnormals) ... ok
+test_subnormal_normal_and_extreme_input_words (test_verified_norm.VerifiedNormTests.test_subnormal_normal_and_extreme_input_words) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.194s
+
+OK

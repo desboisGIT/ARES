@@ -1,0 +1,36 @@
+{
+  "schema_version": "ares.explicit_norm_backend_finite_comparison.v1",
+  "cases": 128,
+  "original_full13D_macro_steps": 128,
+  "native_comparator": "Original13D/RK4 with verified-decay only; native norm/sqrt implementation",
+  "maximum_state_component_difference": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "maximum_motor_difference": 0.0,
+  "regression_tolerance": 2e-06,
+  "regression_pass": true,
+  "norm_witness": {
+    "sqrt_points": 3456,
+    "norm3_calls": 20,
+    "norm4_calls": 7,
+    "verified_input_output_words_sha256": "02b50e2ce00c8ba6fd59ae904c0e638867805e2514b77be99296137b93129082",
+    "every_sqrt_point_exact_bin_verified": true
+  },
+  "all_sqrt_points_runtime_bin_verified": true,
+  "finite_comparison_is_not_a_global_proof": true,
+  "flight_certificate": false,
+  "source51_untouched": true,
+  "elapsed_s": 0.20697868999559432
+}

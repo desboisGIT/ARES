@@ -11,6 +11,8 @@ The frozen arithmetic audit includes copies of PyTorch source files:
 verified-safety ZIP. They come from PyTorch commit
 `70d99e998b4955e0049d13a98d77ae1b14db1f45`. Their complete upstream copyright,
 conditions and disclaimer are provided in `third_party/PyTorch-LICENSE.txt`.
+A copy of that license is also packaged beside the portable archive as
+`ares/verified_safety/PyTorch-LICENSE.txt`.
 This notice covers the copies under `reports/` and inside packaged archives.
 
 Optional dependencies are declared in `pyproject.toml` and inventoried in
