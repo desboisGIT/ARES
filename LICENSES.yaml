@@ -2,9 +2,9 @@ schema_version: 1
 # Inventory, not a grant of rights. No project license has been selected.
 project:
   name: ARES
-  license: null
+  license: LicenseRef-ARES-All-Rights-Reserved
   commercial_ok: false
-  status: pending_owner_license_selection
+  status: public_source_rights_reserved
 runtime:
   # Optional extras do not change the standard-library-only base installation.
   third_party_python_packages:
@@ -294,7 +294,7 @@ unresolved:
   - Torch dependency metadata below is an observed host inventory, not a complete binary audit or deployment approval.
   - CUDA toolkit and NVIDIA redistributables are proprietary or mixed; desktop benchmarking does not approve permissive-only deployment.
   - Optional package versions above describe this host, not a lockfile; audit all resolved distributions for each target.
-  - Owner must choose a license for ARES source and assets.
+  - Original ARES source is rights-reserved; no open-source license has been selected.
   - Build tools and container image are not version-locked or exhaustively audited.
   - Recheck all licenses before distributing or deploying a commercial stack.
 references_not_dependencies:

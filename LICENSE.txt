@@ -1,0 +1,8 @@
+Copyright (c) 2026 ARES contributors. All rights reserved.
+
+ARES original source is publicly viewable but is not offered under an
+open-source license. No general permission to use, modify, or redistribute
+that original source is granted by this notice.
+
+Third-party source retains its own license terms. See THIRD_PARTY_NOTICES.md.
+Assets with an explicit license declaration retain that declared license.

@@ -1,5 +1,8 @@
 # ARES
 
+Source is publicly viewable with rights reserved; see [LICENSE.txt](LICENSE.txt).
+Third-party terms are listed in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
 Foundations and procedural worlds for the autonomous indoor mapping project in
 the [build plan](docs/build_plan_v3.md). Phase 0 provides deterministic contracts
 and scoring. Phase 1 adds furnished rooms, apartments, corridor-based building
